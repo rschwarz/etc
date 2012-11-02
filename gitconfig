@@ -1,7 +1,11 @@
 [user]
-	name = Robert Schwarz
-	email = mail@rschwarz.net
+    name = Robert Schwarz
+    email = mail@rschwarz.net
 [color]
-	diff = auto
-	status = auto
-	branch = auto
+    diff = auto
+    status = auto
+    branch = auto
+[push]
+    default = current
+[receive]
+    denyCurrentBranch = warn
