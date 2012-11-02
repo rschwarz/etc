@@ -5,7 +5,9 @@ export LANG=en_US.UTF-8
 export EMAIL=schwarz@zib.de
 
 # general convenience
+alias ls='ls --color'
 alias ll='ls -l'
+alias  l='ll'
 alias la='ls -la'
 alias lt='ls -latr'
 
