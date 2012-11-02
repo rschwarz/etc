@@ -9,24 +9,6 @@
       <startupnotify><enabled>yes</enabled></startupnotify>
     </action>
   </item>
-  <item label="Gnome Control Center">
-    <action name="Execute">
-      <command>gnome-control-center</command>
-      <startupnotify><enabled>yes</enabled></startupnotify>
-    </action>
-  </item>
-  <item label="KDE Control Center">
-    <action name="Execute">
-      <command>kcontrol</command>
-      <startupnotify><enabled>yes</enabled></startupnotify>
-    </action>
-  </item>
-  <item label="Xfce Settings">
-    <action name="Execute">
-      <command>xfce-setting-show</command>
-      <startupnotify><enabled>yes</enabled></startupnotify>
-    </action>
-  </item>
   <item label="Manage Cups Printers">
     <action name="Execute">
       <command>xdg-open http://localhost:631/</command>
@@ -55,6 +37,11 @@
   <item label="Rxvt Unicode">
     <action name="Execute">
       <command>urxvt</command>
+    </action>
+  </item>
+  <item label="Xterm">
+    <action name="Execute">
+      <command>xterm</command>
     </action>
   </item>
   <item label="Firefox">
