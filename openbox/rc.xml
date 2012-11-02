@@ -274,6 +274,46 @@
         <command>bashrun</command>
       </action>
     </keybind>
+    <keybind key="XF86TouchpadToggle">
+      <action name="Execute">
+        <command>~/bin/toggle_touchpad.sh</command>
+      </action>
+    </keybind>
+    <keybind key="XF86KbdBrightnessDown">
+      <action name="Execute">
+        <command>asus-screen-brightness down</command>
+      </action>
+    </keybind>
+    <keybind key="XF86KbdBrightnessUp">
+      <action name="Execute">
+        <command>asus-screen-brightness up</command>
+      </action>
+    </keybind>
+    <keybind key="C-XF86KbdBrightnessDown">
+      <action name="Execute">
+        <command>asus-kbd-backlight down</command>
+      </action>
+    </keybind>
+    <keybind key="C-XF86KbdBrightnessUp">
+      <action name="Execute">
+        <command>asus-kbd-backlight up</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioMute">
+      <action name="Execute">
+        <execute>amixer set Master 0 mute</execute>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioLowerVolume">
+      <action name="Execute">
+        <execute>amixer set Master 10- unmute</execute>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioRaiseVolume">
+      <action name="Execute">
+        <execute>amixer set Master 3+ unmute</execute>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
