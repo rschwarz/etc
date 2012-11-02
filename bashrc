@@ -11,6 +11,9 @@ alias  l='ll'
 alias la='ls -la'
 alias lt='ls -latr'
 
+# colorless htop
+alias  h='htop -C'
+
 # ubiquitous emacs
 export EDITOR=emacs
 export CVS_EDITOR=emacs
