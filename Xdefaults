@@ -1,5 +1,7 @@
 URxvt.scrollBar: False
 URxvt.font: xft:Monospace-10
+URxvt.perl-ext:
+URxvt.perl-ext-common:
 
 !---- Light URxvt (Solarized Light)
 ! URxvt*fading:                 0
