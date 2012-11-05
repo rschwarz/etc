@@ -20,3 +20,6 @@ export CVS_EDITOR=emacs
 export CVSEDITOR=emacs
 export SVN_EDITOR=emacs
 export SVNEDITOR=emacs
+
+# set some paths
+export PATH=$HOME/bin:$PATH
