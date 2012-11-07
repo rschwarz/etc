@@ -15,11 +15,16 @@ alias lt='ls -latr'
 alias  h='htop -C'
 
 # ubiquitous emacs
-export EDITOR=emacs
-export CVS_EDITOR=emacs
-export CVSEDITOR=emacs
-export SVN_EDITOR=emacs
-export SVNEDITOR=emacs
+export EDITOR=emacsclient
+export CVS_EDITOR=emacsclient
+export CVSEDITOR=emacsclient
+export SVN_EDITOR=emacsclient
+export SVNEDITOR=emacsclient
 
 # set some paths
 export PATH=$HOME/bin:$PATH
+
+# GUROBI
+export GUROBI_HOME=$HOME/opt/gurobi501/linux64
+export GRB_LICENSE_FILE=$GUROBI_HOME/gurobi.lic
+export GUROBI_ROOT=$GUROBI_HOME
