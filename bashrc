@@ -31,3 +31,5 @@ export GUROBI_ROOT=$GUROBI_HOME
 
 export CPLEX_ROOT=$HOME/opt/cplex124
 export ILOG_LICENSE_FILE=${CPLEX_ROOT}/access.ilm
+
+export PYMACS_PYTHON=python2
