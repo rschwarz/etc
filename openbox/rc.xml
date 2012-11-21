@@ -271,7 +271,7 @@
     </keybind>
     <keybind key="W-Return">
       <action name="Execute">
-        <command>bashrun</command>
+        <command>dmenu_run</command>
       </action>
     </keybind>
     <keybind key="XF86TouchpadToggle">
