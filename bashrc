@@ -24,12 +24,4 @@ export SVNEDITOR=emacsclient
 # set some paths
 export PATH=$HOME/bin:$PATH
 
-# GUROBI
-export GUROBI_HOME=$HOME/opt/gurobi501/linux64
-export GRB_LICENSE_FILE=$GUROBI_HOME/gurobi.lic
-export GUROBI_ROOT=$GUROBI_HOME
-
-export CPLEX_ROOT=$HOME/opt/cplex124
-export ILOG_LICENSE_FILE=${CPLEX_ROOT}/access.ilm
-
 export PYMACS_PYTHON=python2
