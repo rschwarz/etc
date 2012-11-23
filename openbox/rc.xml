@@ -238,6 +238,12 @@
         <to>8</to>
       </action>
     </keybind>
+    <keybind key="W-m">
+      <action name="MoveResizeTo">
+        <monitor>next</monitor>
+      </action>
+    </keybind>
+
     <!-- Keybindings for windows -->
     <keybind key="W-F4">
       <action name="Close"/>
