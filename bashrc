@@ -21,6 +21,10 @@ export CVSEDITOR=emacsclient
 export SVN_EDITOR=emacsclient
 export SVNEDITOR=emacsclient
 
+# bash completion
+complete -cf sudo
+complete -cf man
+
 # set some paths
 export PATH=$HOME/bin:$PATH
 
