@@ -15,7 +15,7 @@ alias lt='ls -latr'
 alias  h='htop -C'
 
 # custom valgrind
-alias valgrindleaks='valgrind --leak-check=full --show-reachable=yes'
+alias vleaks='valgrind --leak-check=full'
 
 # ubiquitous emacs
 export EDITOR=emacsclient
