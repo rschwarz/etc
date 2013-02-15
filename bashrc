@@ -14,6 +14,9 @@ alias lt='ls -latr'
 # colorless htop
 alias  h='htop -C'
 
+# custom valgrind
+alias valgrindleaks='valgrind --leak-check=full --show-reachable=yes'
+
 # ubiquitous emacs
 export EDITOR=emacsclient
 export CVS_EDITOR=emacsclient
