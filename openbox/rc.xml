@@ -268,6 +268,12 @@
         </finalactions>
       </action>
     </keybind>
+    <keybind key="W-S-Tab">
+      <action name="ShowMenu">
+        <menu>client-list-combined-menu</menu>
+      </action>
+    </keybind>
+
     <!-- Keybindings for window switching with the arrow keys -->
     <!-- Keybindings for running applications -->
     <keybind key="W-t">
