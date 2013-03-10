@@ -31,4 +31,5 @@ complete -cf man
 # set some paths
 export PATH=$HOME/bin:$PATH
 
-export PYMACS_PYTHON=python2
+# setup go
+export GOPATH=$HOME/go
