@@ -286,6 +286,11 @@
         <command>dmenu_run</command>
       </action>
     </keybind>
+    <keybind key="XF86Sleep">
+      <action name="Execute">
+        <command>sudo pm-suspend</command>
+      </action>
+    </keybind>
     <keybind key="XF86TouchpadToggle">
       <action name="Execute">
         <command>~/bin/toggle_touchpad.sh</command>
