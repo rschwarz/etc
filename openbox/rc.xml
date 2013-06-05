@@ -298,20 +298,10 @@
     </keybind>
     <keybind key="XF86KbdBrightnessDown">
       <action name="Execute">
-        <command>asus-screen-brightness down</command>
-      </action>
-    </keybind>
-    <keybind key="XF86KbdBrightnessUp">
-      <action name="Execute">
-        <command>asus-screen-brightness up</command>
-      </action>
-    </keybind>
-    <keybind key="C-XF86KbdBrightnessDown">
-      <action name="Execute">
         <command>asus-kbd-backlight down</command>
       </action>
     </keybind>
-    <keybind key="C-XF86KbdBrightnessUp">
+    <keybind key="XF86KbdBrightnessUp">
       <action name="Execute">
         <command>asus-kbd-backlight up</command>
       </action>
