@@ -1,0 +1,18 @@
+[general]
+accounts = ZIB
+
+[Account ZIB]
+localrepository = Local
+remoterepository = zib.de
+
+[Repository Local]
+type = Maildir
+localfolders = ~/mails
+
+[Repository zib.de]
+type = IMAP
+remotehost = imap.zib.de
+remoteuser = bzfschwa
+ssl = yes
+cert_fingerprint = 1be9d89d10a6b7b624cf228a61f9930224240c48
+maxconnections = 1
