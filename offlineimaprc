@@ -1,15 +1,15 @@
 [general]
-accounts = ZIB
+accounts = account:zib
 
-[Account ZIB]
-localrepository = Local
-remoterepository = zib.de
+[Account account:zib]
+localrepository = local:zib
+remoterepository = remote:zib
 
-[Repository Local]
+[Repository local:zib]
 type = Maildir
-localfolders = ~/mails
+localfolders = ~/mails/zib
 
-[Repository zib.de]
+[Repository remote:zib]
 type = IMAP
 remotehost = imap.zib.de
 remoteuser = bzfschwa
