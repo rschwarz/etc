@@ -1,5 +1,7 @@
 [general]
 accounts = account:zib
+accounts = account:hetzner
+
 
 [Account account:zib]
 localrepository = local:zib
@@ -15,4 +17,21 @@ remotehost = imap.zib.de
 remoteuser = bzfschwa
 ssl = yes
 cert_fingerprint = 1be9d89d10a6b7b624cf228a61f9930224240c48
+maxconnections = 1
+
+
+[Account account:hetzner]
+localrepository = local:hetzner
+remoterepository = remote:hetzner
+
+[Repository local:hetzner]
+type = Maildir
+localfolders = ~/mails/hetzner
+
+[Repository remote:hetzner]
+type = IMAP
+remotehost = pop.rschwarz.net
+remoteuser = mail@rschwarz.net
+ssl = yes
+cert_fingerprint = 0c2ae4591bca53646899fe0c25b9e7dea8f8c44d
 maxconnections = 1
