@@ -1,7 +1,5 @@
 [general]
-accounts = account:zib
-accounts = account:hetzner
-
+accounts = account:zib, account:hetzner
 
 [Account account:zib]
 localrepository = local:zib
