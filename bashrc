@@ -33,3 +33,6 @@ export PATH=$HOME/bin:$PATH
 
 # setup go
 export GOPATH=$HOME/go
+
+# OPAM configuration
+. $HOME/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
