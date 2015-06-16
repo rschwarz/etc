@@ -15,9 +15,10 @@ function box_name {
 local current_dir='${PWD/#$HOME/~}'
 
 # VCS
-YS_VCS_PROMPT_PREFIX1=" %{$fg[white]%}on%{$reset_color%} "
+YS_VCS_PROMPT_PREFIX1="["
+# YS_VCS_PROMPT_PREFIX1=" %{$fg[white]%}on%{$reset_color%} "
 YS_VCS_PROMPT_PREFIX2=":%{$fg[cyan]%}"
-YS_VCS_PROMPT_SUFFIX="%{$reset_color%}"
+YS_VCS_PROMPT_SUFFIX="%{$reset_color%}]"
 YS_VCS_PROMPT_DIRTY=" %{$fg[red]%}x"
 YS_VCS_PROMPT_CLEAN=" %{$fg[green]%}o"
 
@@ -44,6 +45,14 @@ ys_hg_prompt_info() {
 	fi
 }
 
+# conda info
+local conda_info='$(ys_conda_prompt_info)'
+ys_conda_prompt_info() {
+	if [ -n "${CONDA_DEFAULT_ENV}" ]; then
+		echo -n "[${CONDA_DEFAULT_ENV}] "
+	fi
+}
+
 # Prompt format: \n # USER at MACHINE in DIRECTORY on git:BRANCH STATE [TIME] \n $ 
 PROMPT="
 %{$terminfo[bold]$fg[blue]%}#%{$reset_color%} \
@@ -51,7 +60,10 @@ PROMPT="
 %{$fg[white]%}@\
 %{$fg[green]%}$(box_name)\
 %{$fg[white]%}:\
-%{$terminfo[bold]$fg[yellow]%}${current_dir}%{$reset_color%}    \
+%{$terminfo[bold]$fg[yellow]%}${current_dir}%{$reset_color%} \
+${conda_info}\
+${hg_info}\
+${git_info} \
 %{$fg[white]%}[%*]
 %{$terminfo[bold]$fg[red]%}$ %{$reset_color%}"
 
@@ -64,7 +76,7 @@ PROMPT="
 %{$fg[white]%}in \
 %{$terminfo[bold]$fg[yellow]%}${current_dir}%{$reset_color%}\
 ${hg_info}\
-${git_info} \
+${git_info}\
 %{$fg[white]%}[%*]
 %{$terminfo[bold]$fg[red]%}$ %{$reset_color%}"
 fi
