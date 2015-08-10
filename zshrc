@@ -57,7 +57,7 @@ plugins=(emacs git z)
 
 # User configuration
 
-export PATH="/home/bzfschwa/bin:${PATH}"
+export PATH="${HOME}/bin:${PATH}"
 
 source $ZSH/oh-my-zsh.sh
 
