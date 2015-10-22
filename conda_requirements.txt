@@ -1,0 +1,22 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+cython=0.23.4=py34_0
+ipython=4.0.0=py34_0
+jupyter=1.0.0=py34_0
+lxml=3.4.4=py34_0
+matplotlib=1.4.3=np110py34_2
+networkx=1.10=py34_0
+numpy=1.10.1=py34_0
+pandas=0.17.0=np110py34_0
+pip=7.1.2=py34_0
+pytables=3.2.2=np110py34_0
+pytest=2.8.1=py34_0
+python=3.4.3=2
+scikit-learn=0.16.1=np110py34_0
+scipy=0.16.0=np110py34_1
+seaborn=0.6.0=np110py34_0
+sympy=0.7.6.1=py34_0
+#
+# on channel: mcg
+cvxpy=0.3.2=py34_0
