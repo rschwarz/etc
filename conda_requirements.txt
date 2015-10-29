@@ -12,8 +12,8 @@ ecos=2.0.4=py34_0
 fastcache=1.0.2=py34_0
 fftw=3.3.4=0
 flask=0.10.1=py34_1
-fontconfig=2.11.1=4
-freetype=2.5.2=2
+fontconfig=2.11.1=5
+freetype=2.5.5=0
 glpk=4.56=0
 hdf5=1.8.15.1=2
 ipykernel=4.1.0=py34_0
@@ -36,6 +36,8 @@ lxml=3.4.4=py34_0
 markupsafe=0.23=py34_0
 matplotlib=1.4.3=np110py34_2
 mistune=0.7.1=py34_0
+mpld3=0.2=py34_1
+mplexporter=0.0.1=py34_1
 nbconvert=4.0.0=py34_0
 nbformat=4.0.1=py34_0
 networkx=1.10=py34_0

@@ -2,4 +2,5 @@ changeps1: False
 
 channels:
   - mcg
+  - ioos
   - defaults
