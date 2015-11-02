@@ -85,3 +85,8 @@ export LANG=en_US.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# go dev
+export GOPATH="${HOME}/go"
+export PATH="${GOPATH}/bin:${PATH}"
+export GO15VENDOREXPERIMENT=1
