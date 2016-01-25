@@ -1,7 +1,9 @@
 [user]
     name = Robert Schwarz
-    email = schwarz@zib.de
+    email = mail@rschwarz.net
 [push]
     default = current
 [receive]
     denyCurrentBranch = warn
+[github]
+	user = leethargo
