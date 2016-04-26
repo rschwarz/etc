@@ -10,8 +10,8 @@ URxvt.perl-ext-common:
 
 URxvt*background:              #fdf6e3
 URxvt*foreground:              #657b83
-URxvt*fading:                  40
-URxvt*fadeColor:               #fdf6e3
+! URxvt*fading:                  40
+! URxvt*fadeColor:               #fdf6e3
 URxvt*cursorColor:             #586e75
 URxvt*pointerColorBackground:  #93a1a1
 URxvt*pointerColorForeground:  #586e75
