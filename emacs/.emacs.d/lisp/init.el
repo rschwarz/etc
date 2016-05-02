@@ -4,6 +4,7 @@
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 
 (load "init_package.el")
+(load "init_org.el")
 
 (load "init_lookfeel.el")
 
@@ -21,7 +22,6 @@
 (load "init_mail.el")
 (load "init_markdown.el")
 (load "init_minizinc.el")
-(load "init_org.el")
 (load "init_pdf.el")
 (load "init_python.el")
 (load "init_smex.el")

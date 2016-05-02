@@ -14,6 +14,7 @@
 ;; (adapted from https://github.com/bbatsov/prelude/*/prelude-packages.el)
 (defvar prelude-packages
   '(
+    auto-complete
     auto-complete-clang-async
     cmake-mode
     ein
