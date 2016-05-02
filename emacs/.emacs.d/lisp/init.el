@@ -1,7 +1,7 @@
 ;; customizations for emacs
 
 ;; also add local path
-(add-to-list 'load-path "~/.emacs.d/")
+(add-to-list 'load-path "~/.emacs.d/lisp/")
 
 (load "init_package.el")
 
