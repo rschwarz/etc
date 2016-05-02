@@ -54,6 +54,3 @@
   (dolist (p prelude-packages)
     (when (not (package-installed-p p))
       (package-install p))))
-
-;; also add local path
-(add-to-list 'load-path "~/.emacs.d/")
