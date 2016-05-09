@@ -10,9 +10,9 @@
 
 (load "init_ada.el")
 (load "init_c.el")
-(load "init_cmake.el")
+;; (load "init_cmake.el")
 (load "init_csv.el")
-(load "init_ein.el")
+;; (load "init_ein.el")
 (load "init_elisp.el")
 (load "init_git.el")
 (load "init_gnugo.el")

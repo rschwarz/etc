@@ -9,4 +9,5 @@
 (add-hook 'c-mode-common-hook (lambda () (fci-mode 1)))
 (add-hook 'c-mode-common-hook 'ws-butler-mode)
 
+; for arduino
 (add-to-list 'auto-mode-alist '("\\.ino\\'" . c-mode))

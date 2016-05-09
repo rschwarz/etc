@@ -5,8 +5,8 @@
 
 ;; add repos
 (package-initialize)
-(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
-(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/") t)
+(add-to-list 'package-archives '("melpa-stable" . "http://stable.melpa.org/packages/") t)
 (add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
 
 ;; define list of packages we always want
@@ -14,13 +14,7 @@
 ;; (adapted from https://github.com/bbatsov/prelude/*/prelude-packages.el)
 (defvar prelude-packages
   '(
-    auto-complete
-    auto-complete-clang-async
-    cmake-mode
-    ein
     fill-column-indicator
-    gitconfig-mode
-    gitignore-mode
     gnugo
     go-mode
     julia-mode
@@ -30,14 +24,11 @@
     mo-git-blame
     org-bullets
     org-plus-contrib
-    org-magit
     pdf-tools
     rainbow-delimiters
     rainbow-mode
     smex
-    web-mode
     ws-butler
-    yasnippet-bundle
     )
   "A list of packages to ensure are installed at launch.")
 
