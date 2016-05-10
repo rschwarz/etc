@@ -28,6 +28,7 @@
     rainbow-delimiters
     rainbow-mode
     smex
+    web-mode
     ws-butler
     )
   "A list of packages to ensure are installed at launch.")
