@@ -30,6 +30,7 @@
     smex
     web-mode
     ws-butler
+    xquery-mode
     )
   "A list of packages to ensure are installed at launch.")
 
