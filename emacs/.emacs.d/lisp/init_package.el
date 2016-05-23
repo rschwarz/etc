@@ -14,6 +14,7 @@
 ;; (adapted from https://github.com/bbatsov/prelude/*/prelude-packages.el)
 (defvar prelude-packages
   '(
+    auctex
     fill-column-indicator
     gnugo
     go-mode
