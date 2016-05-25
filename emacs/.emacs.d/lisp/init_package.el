@@ -32,6 +32,7 @@
     web-mode
     ws-butler
     xquery-mode
+    yaml-mode
     )
   "A list of packages to ensure are installed at launch.")
 

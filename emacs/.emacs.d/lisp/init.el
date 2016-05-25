@@ -29,6 +29,7 @@
 (load "init_web.el")
 (load "init_writegood.el")
 (load "init_xquery.el")
+(load "init_yaml.el")
 (load "init_zimpl.el")
 
 (load "init_keybindings.el")
