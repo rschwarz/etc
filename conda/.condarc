@@ -1,6 +1,7 @@
 changeps1: False
 
 channels:
+  - leethargo
   - mcg
   - ioos
   - timcera
