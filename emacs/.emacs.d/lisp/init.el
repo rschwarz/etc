@@ -22,7 +22,7 @@
 (load "init_mail.el")
 (load "init_markdown.el")
 (load "init_minizinc.el")
-(load "init_pdf.el")
+;; (load "init_pdf.el")
 (load "init_python.el")
 (load "init_smex.el")
 (load "init_tex.el")

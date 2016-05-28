@@ -25,7 +25,6 @@
     mo-git-blame
     org-bullets
     org-plus-contrib
-    pdf-tools
     rainbow-delimiters
     rainbow-mode
     smex
