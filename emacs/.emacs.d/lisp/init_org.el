@@ -70,3 +70,4 @@
    (python . t)
    (sh . t)
    ))
+(setq org-babel-sh-command "zsh")
