@@ -18,6 +18,7 @@
 (load "init_gnugo.el")
 (load "init_go.el")
 (load "init_ido.el")
+(load "init_julia.el")
 (load "init_literature.el")
 (load "init_mail.el")
 (load "init_markdown.el")

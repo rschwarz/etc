@@ -19,6 +19,7 @@
     gnugo
     go-mode
     julia-mode
+    julia-shell
     ledger-mode
     magit
     markdown-mode
