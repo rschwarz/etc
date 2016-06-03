@@ -244,6 +244,48 @@
       </action>
     </keybind>
 
+    <!-- Moving and resizing -->
+    <keybind key="W-C-Left">
+      <action name="MoveToEdge">
+        <direction>west</direction>
+      </action>
+    </keybind>
+    <keybind key="W-C-Right">
+      <action name="MoveToEdge">
+        <direction>east</direction>
+      </action>
+    </keybind>
+    <keybind key="W-C-Up">
+      <action name="MoveToEdge">
+        <direction>north</direction>
+      </action>
+    </keybind>
+    <keybind key="W-C-Down">
+      <action name="MoveToEdge">
+        <direction>South</direction>
+      </action>
+    </keybind>
+    <keybind key="W-A-Left">
+      <action name="GrowToEdge">
+        <direction>west</direction>
+      </action>
+    </keybind>
+    <keybind key="W-A-Right">
+      <action name="GrowToEdge">
+        <direction>east</direction>
+      </action>
+    </keybind>
+    <keybind key="W-A-Up">
+      <action name="GrowToEdge">
+        <direction>north</direction>
+      </action>
+    </keybind>
+    <keybind key="W-A-Down">
+      <action name="GrowToEdge">
+        <direction>South</direction>
+      </action>
+    </keybind>
+
     <!-- Keybindings for windows -->
     <keybind key="W-F4">
       <action name="Close"/>
