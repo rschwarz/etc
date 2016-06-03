@@ -90,3 +90,14 @@ export LANG=en_US.UTF-8
 export GOPATH="${HOME}/go"
 export PATH="${GOPATH}/bin:${PATH}"
 export GO15VENDOREXPERIMENT=1
+
+# gurobi
+export GUROBI_HOME=$HOME/opt/gurobi/linux64
+export GRB_LICENSE_FILE=$GUROBI_HOME/gurobi.lic
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${GUROBI_HOME}/lib"
+
+# CPLEX
+export CPLEX_HOME=$HOME/opt/cplex126
+export ILOG_LICENSE_FILE=${CPLEX_HOME}/access.ilm
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${CPLEX_HOME}/cplex/lib/x86-64_linux/static_pic"
+
