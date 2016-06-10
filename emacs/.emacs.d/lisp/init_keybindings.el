@@ -13,6 +13,10 @@
 (global-set-key (kbd "<f11>") 'mo-git-blame-current)
 (global-set-key (kbd "<f12>") 'magit-status)
 
+; smooth scrolling
+(global-set-key (kbd "<C-mouse-4>") 'scroll-down-line)
+(global-set-key (kbd "<C-mouse-5>") 'scroll-up-line)
+
 ; for org-mode
 (global-set-key (kbd "C-c a") 'org-agenda)
 (global-set-key (kbd "C-c n") (lambda () (interactive) (org-capture nil "n")))
