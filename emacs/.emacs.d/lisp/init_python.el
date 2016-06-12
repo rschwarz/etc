@@ -6,9 +6,6 @@
 ;; (autoload 'jedi:setup "jedi" nil t)
 ;; (add-hook 'python-mode-hook 'jedi:setup)
 
-;; (require 'auto-complete)
-;; (add-hook 'python-mode-hook (lambda () (auto-complete-mode 1)))
-
 ;; (defun autopep8 ()
 ;;   (interactive)
 ;;   (shell-command-on-region

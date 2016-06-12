@@ -2,7 +2,6 @@
 
 (require 'ein)
 
-(setq ein:use-auto-complete t)
 (setq ein:complete-on-dot nil)
 
 ;; ; better color, matching solarized-light

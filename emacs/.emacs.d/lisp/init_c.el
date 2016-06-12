@@ -5,7 +5,6 @@
 (setq-default c-syntactic-indentation t)
 
 (add-hook 'c-mode-common-hook (lambda () (rainbow-delimiters-mode 1)))
-(add-hook 'c-mode-common-hook (lambda () (auto-complete-mode 1)))
 (add-hook 'c-mode-common-hook (lambda () (fci-mode 1)))
 (add-hook 'c-mode-common-hook 'ws-butler-mode)
 

@@ -35,14 +35,6 @@
   (kbd "C-c <down>") 'merlin-type-enclosing-go-down)
 (set-face-background 'merlin-type-face "#88FF44")
 
-;; -- enable auto-complete -------------------------------
-;; Not required, but useful along with merlin-mode
-(require 'auto-complete)
-(add-hook 'tuareg-mode-hook 'auto-complete-mode)
-(setq merlin-use-auto-complete-mode t)
-(setq merlin-error-after-save nil)
-
-
 ;; setup ocp-indent
 (require 'ocp-indent)
 
