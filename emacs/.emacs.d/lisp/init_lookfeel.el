@@ -49,6 +49,7 @@
 (setq-default fci-rule-color "#eee8d5")
 ;; for use with solarized-dark:
 ;; (setq-default fci-rule-color "#073642")
+(setq-default fill-column 80)
 
 ;; ediff
 (setq ediff-highlight-all-diffs nil)
