@@ -66,8 +66,10 @@
 (org-babel-do-load-languages
  'org-babel-load-languages
  '(
+   (ditaa . t)
    (ledger . t)
    (python . t)
    (sh . t)
    ))
 (setq org-babel-sh-command "zsh")
+(setq org-ditaa-jar-path "/usr/bin/ditaa")
