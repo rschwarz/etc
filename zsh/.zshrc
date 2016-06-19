@@ -104,3 +104,5 @@ export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${CPLEX_HOME}/cplex/lib/x86-64_linux/
 # julia
 export JULIALANG_HOME=$HOME/opt/julia
 export PATH=${JULIALANG_HOME}/bin/:$PATH
+
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/usr/lib/llvm-3.5/lib"
