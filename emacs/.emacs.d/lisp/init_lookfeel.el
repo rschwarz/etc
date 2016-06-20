@@ -20,9 +20,6 @@
 ;; no beeps
 (setq-default visible-bell t)
 
-(add-to-list 'custom-theme-load-path
-             "~/.emacs.d/site-lisp/emacs-color-theme-solarized")
-
 (set-default-font "Monospace-9")
 
 (display-time-mode t)
