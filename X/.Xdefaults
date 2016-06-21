@@ -4,8 +4,17 @@ URxvt*letterSpace: -1
 URxvt.perl-ext:
 URxvt.perl-ext-common:
 
-URxvt.foreground: #C8C8C8
-URxvt.background: #323232
+URxvt.foreground: #000000
+URxvt.background: #ffffff
+! Normal
+! color0    black
+! color1    red
+! color2    green
+! color3    yellow
+! color4    blue
+! color5    purple
+! color6    cyan
+! color7    white
 URxvt.color0:     #2E3436
 URxvt.color1:     #CC0000
 URxvt.color2:     #4E9A06
@@ -14,6 +23,15 @@ URxvt.color4:     #3465A4
 URxvt.color5:     #75507B
 URxvt.color6:     #06989A
 URxvt.color7:     #D3D7CF
+! Light
+! color8     black
+! color9     red
+! color10    green
+! color11    yellow
+! color12    blue
+! color13    purple
+! color14    cyan
+! color15    white
 URxvt.color8:     #555753
 URxvt.color9:     #EF2929
 URxvt.color10:    #8AE234
