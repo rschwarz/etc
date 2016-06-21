@@ -29,7 +29,6 @@
     rainbow-delimiters
     rainbow-mode
     smex
-    tango-plus-theme
     web-mode
     ws-butler
     xquery-mode

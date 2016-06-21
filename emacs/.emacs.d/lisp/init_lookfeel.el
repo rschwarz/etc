@@ -1,6 +1,7 @@
 ;; look and feel
 
 ;; custom theme
+(add-to-list 'custom-theme-load-path "~/.emacs.d/lisp/themes")
 (setq custom-safe-themes
      '("9cb6358979981949d1ae9da907a5d38fb6cde1776e8956a1db150925f2dad6c1"
        "fc5fcb6f1f1c1bc01305694c59a1a861b008c534cae8d0e48e4d5e81ad718bc6"
