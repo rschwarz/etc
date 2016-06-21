@@ -22,7 +22,7 @@ URxvt.color3:     #C4A000
 URxvt.color4:     #3465A4
 URxvt.color5:     #75507B
 URxvt.color6:     #06989A
-URxvt.color7:     #D3D7CF
+URxvt.color7:     #888a85
 ! Light
 ! color8     black
 ! color9     red
@@ -39,4 +39,4 @@ URxvt.color11:    #FCE94F
 URxvt.color12:    #729FCF
 URxvt.color13:    #AD7FA8
 URxvt.color14:    #34E2E2
-URxvt.color15:    #EEEEEC
+URxvt.color15:    #D3D7CF
