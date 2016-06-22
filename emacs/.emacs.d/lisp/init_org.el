@@ -29,6 +29,8 @@
 (setq org-log-into-drawer t)
 (setq org-modules (quote (org-habit org-info)))
 (setq org-habit-show-habits-only-for-today nil)
+(setq org-habit-following-days 0) ; hide habit graph
+(setq org-habit-preceding-days 0) ; hide habit graph
 (setq org-hide-emphasis-markers t)
 
 ; safety
