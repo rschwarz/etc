@@ -3,10 +3,12 @@
 ;; custom theme
 (add-to-list 'custom-theme-load-path "~/.emacs.d/lisp/themes")
 (setq custom-safe-themes
-     '("9cb6358979981949d1ae9da907a5d38fb6cde1776e8956a1db150925f2dad6c1"
-       "fc5fcb6f1f1c1bc01305694c59a1a861b008c534cae8d0e48e4d5e81ad718bc6"
-       "1e7e097ec8cb1f8c3a912d7e1e0331caeed49fef6cff220be63bd2a6ba4cc365"
-       default))
+      '("ce325ec1f2911a24bdfe0c2d3d71f3823eeb66b00930871d59f9a03be808d693"
+        "9cb6358979981949d1ae9da907a5d38fb6cde1776e8956a1db150925f2dad6c1"
+        "fc5fcb6f1f1c1bc01305694c59a1a861b008c534cae8d0e48e4d5e81ad718bc6"
+        "1e7e097ec8cb1f8c3a912d7e1e0331caeed49fef6cff220be63bd2a6ba4cc365"
+        default)
+      )
 (load-theme 'tango-plus)
 
 ;; no more prompts
