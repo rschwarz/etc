@@ -56,13 +56,13 @@ ys_conda_prompt_info() {
 # Prompt format: \n # USER at MACHINE in DIRECTORY on git:BRANCH STATE [TIME] \n $ 
 PROMPT="\
 %{$fg[white]%}#%{$reset_color%} \
-%{$fg[cyan]%}%n\
+%{$fg[yellow]%}%n\
 %{$fg[white]%}@\
-%{$fg[cyan]%}$(box_name)\
+%{$fg[yellow]%}$(box_name)\
 %{$fg[white]%}:\
 %{$fg_bold[black]%}${current_dir}%{$reset_color%} \
 ${conda_info}\
 ${hg_info}\
 ${git_info}\
 %{$fg[white]%}[%*]
-%{$fg[cyan]%}$ %{$reset_color%}"
+%{$fg[yellow]%}$ %{$reset_color%}"
