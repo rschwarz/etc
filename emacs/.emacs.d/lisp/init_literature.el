@@ -30,10 +30,8 @@
   "** [[file:~/literature/literature.bib::" str "][bibtex]]" ?\n
   )
 
-
-;; now use pdf-tools inside emacs!
 (add-to-list 'org-file-apps
-             '("\\.pdf\\'" . "emacsclient %s"))
+             '("\\.pdf\\'" . "xpdf %s"))
 
 (add-to-list 'org-file-apps
              '("\\.djvu\\'" . "okular %s"))
