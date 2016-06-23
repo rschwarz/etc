@@ -230,8 +230,13 @@ Semantic, and Ansi-Color faces are included.")
    `(semantic-tag-boundary-face
                                     ((,class (:overline   ,blue-1))))
    `(semantic-unmatched-syntax-face
-                                    ((,class (:underline  ,red-1)))))
-
+                                    ((,class (:underline  ,red-1))))
+   ;; ledger
+   `(ledger-font-payee-uncleared-face ((,class (:foreground ,blue-3 :weight bold))))
+   `(ledger-font-posting-account-face ((,class (:foreground ,black))))
+   `(ledger-font-posting-amount-face ((,class (:foreground ,cham-3))))
+   `(ledger-font-posting-date-face ((,class (:foreground ,blue-3))))
+   )
   (custom-theme-set-variables
    'tango-plus
    `(ansi-color-names-vector [,alum-6 ,red-3 ,cham-3 ,butter-3
