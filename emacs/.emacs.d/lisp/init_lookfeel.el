@@ -46,10 +46,9 @@
 ;; help enforce 80 column rule
 ;; add hooks with (lambda () (fci-mode 1))
 (setq-default fci-rule-column 80)
-;; for use with solarized-light:
-(setq-default fci-rule-color "#eee8d5")
-;; for use with solarized-dark:
-;; (setq-default fci-rule-color "#073642")
+(setq-default fci-rule-color "#eeeeec") ;; with solarized-light
+;; (setq-default fci-rule-color "#eee8d5") ;; with solarized-light
+;; (setq-default fci-rule-color "#073642") ;; with solarized-dark:
 (setq-default fill-column 80)
 
 ;; ediff
