@@ -25,6 +25,7 @@
 (setq-default visible-bell t)
 
 ;; (set-default-font "DejaVuSansMono-12") ; what I had for years
+;; (set-default-font "Inconsolata-14") ; quite upright
 (set-default-font "LiberationMono-12") ; feels somewhat bolder
 
 (display-time-mode t)
