@@ -1,5 +1,6 @@
 URxvt.scrollBar: False
-URxvt.font: xft:Monospace-9
+! URxvt.font: xft:DejaVuSansMono-12
+URxvt.font: xft:LiberationMono-12
 URxvt*letterSpace: -1
 URxvt.perl-ext:
 URxvt.perl-ext-common:
