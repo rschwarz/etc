@@ -18,6 +18,7 @@
     fill-column-indicator
     gnugo
     go-mode
+    idle-highlight
     julia-mode
     julia-shell
     ledger-mode
