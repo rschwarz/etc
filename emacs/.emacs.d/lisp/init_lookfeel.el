@@ -53,3 +53,14 @@
 
 ;; ediff
 (setq ediff-highlight-all-diffs nil)
+
+;; paste at point, not where the mouse points
+(setq mouse-yank-at-point t)
+
+;; replace zap-to-char
+(autoload 'zap-up-to-char "misc"
+  "Kill up to, but not including ARGth occurrence of CHAR." t)
+(global-set-key (kbd "M-z") 'zap-up-to-char)
+
+;; always add newline at EOF
+(setq require-final-newline t)
