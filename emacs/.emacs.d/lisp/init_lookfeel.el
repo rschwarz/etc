@@ -64,3 +64,6 @@
 
 ;; always add newline at EOF
 (setq require-final-newline t)
+
+;; idle-highlight mode
+(custom-set-faces '(idle-highlight ((t (:inherit lazy-highlight)))))
