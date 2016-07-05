@@ -56,13 +56,7 @@ DISABLE_AUTO_UPDATE="true"
 plugins=(git z)
 
 # User configuration
-
-export PATH="${HOME}/bin:${PATH}"
-
 source $ZSH/oh-my-zsh.sh
-
-# You may need to manually set your language environment
-export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -85,24 +79,3 @@ export LANG=en_US.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# go dev
-export GOPATH="${HOME}/go"
-export PATH="${GOPATH}/bin:${PATH}"
-export GO15VENDOREXPERIMENT=1
-
-# gurobi
-export GUROBI_HOME=$HOME/opt/gurobi/linux64
-export GRB_LICENSE_FILE=$GUROBI_HOME/gurobi.lic
-export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${GUROBI_HOME}/lib"
-
-# CPLEX
-export CPLEX_HOME=$HOME/opt/cplex126
-export ILOG_LICENSE_FILE=${CPLEX_HOME}/access.ilm
-export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${CPLEX_HOME}/cplex/lib/x86-64_linux/static_pic"
-
-# julia
-export JULIALANG_HOME=$HOME/opt/julia
-export PATH=${JULIALANG_HOME}/bin/:$PATH
-
-export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/usr/lib/llvm-3.5/lib"
