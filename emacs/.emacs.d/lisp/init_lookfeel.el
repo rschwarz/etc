@@ -24,7 +24,9 @@
 ;; no beeps
 (setq-default visible-bell t)
 
-(set-default-font "DejaVuSansMono-10") ; what I had for years
+(set-default-font "Liberation Mono-12") ; thin, spacy
+;; (set-default-font "Inconsolata-14") ; round, no italics
+;; (set-default-font "DejaVuSansMono-12") ; simple, what I had for years
 
 (display-time-mode t)
 (setq-default display-time-24hr-format t)
