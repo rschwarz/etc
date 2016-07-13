@@ -1,5 +1,9 @@
 URxvt.scrollBar: False
 URxvt.font: xft:Liberation Mono-12
+URxvt.letterSpace: -1
+
+Xft.autohint: 1
+Xft.antialias: 1
 
 URxvt.foreground: #000000
 URxvt.background: #ffffff
