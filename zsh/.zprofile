@@ -17,7 +17,9 @@ export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${GUROBI_HOME}/lib"
 # CPLEX
 export CPLEX_HOME=$HOME/opt/cplex126
 export ILOG_LICENSE_FILE=${CPLEX_HOME}/access.ilm
-export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${CPLEX_HOME}/cplex/lib/x86-64_linux/static_pic"
+# export path to dynamic library, only
+# export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${CPLEX_HOME}/cplex/lib/x86-64_linux/static_pic"
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${CPLEX_HOME}/cplex/bin/x86-64_linux/"
 
 # SCIP
 export SCIPOPTDIR=$HOME/src/scipoptsuite
