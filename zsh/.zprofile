@@ -19,6 +19,9 @@ export CPLEX_HOME=$HOME/opt/cplex126
 export ILOG_LICENSE_FILE=${CPLEX_HOME}/access.ilm
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${CPLEX_HOME}/cplex/lib/x86-64_linux/static_pic"
 
+# SCIP
+export SCIPOPTDIR=$HOME/src/scipoptsuite
+
 # Julia
 export JULIALANG_HOME=$HOME/opt/julia
 export PATH=${JULIALANG_HOME}/bin/:$PATH
