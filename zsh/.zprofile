@@ -5,9 +5,8 @@ export LANG=en_US.UTF-8
 export PATH="${HOME}/bin:${PATH}"
 
 # go dev
-export GOPATH="${HOME}/go"
-export PATH="${GOPATH}/bin:${PATH}"
-export GO15VENDOREXPERIMENT=1
+export GOROOT="${HOME}/opt/go"
+export PATH="${GOROOT}/bin:${PATH}"
 
 # Gurobi
 export GUROBI_HOME=$HOME/opt/gurobi/linux64
