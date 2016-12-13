@@ -30,6 +30,7 @@
     rainbow-delimiters
     rainbow-mode
     smex
+    tldr
     web-mode
     ws-butler
     xquery-mode
