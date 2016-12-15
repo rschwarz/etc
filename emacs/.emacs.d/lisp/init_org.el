@@ -25,7 +25,7 @@
               (todo . " %-12c")
               (tags . " %-12c")
               (search . " %-12c"))))
-(setq org-agenda-tags-column -99)
+(setq org-agenda-tags-column -80)
 (setq org-log-into-drawer t)
 (setq org-modules (quote (org-habit org-info)))
 (setq org-habit-show-habits-only-for-today nil)
