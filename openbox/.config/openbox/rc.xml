@@ -328,6 +328,12 @@
         <command>dmenu_run</command>
       </action>
     </keybind>
+    <!-- Select region/window and take screenshot -->
+    <keybind key="W-s">
+      <action name="Execute">
+        <command>scrot -s</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
