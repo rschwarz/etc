@@ -331,7 +331,7 @@
     <!-- Select region/window and take screenshot -->
     <keybind key="W-s">
       <action name="Execute">
-        <command>scrot -s</command>
+        <command>scrot '%F_%s.png' -s -e 'mv $f ~/in/'</command>
       </action>
     </keybind>
   </keyboard>
