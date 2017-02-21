@@ -31,6 +31,7 @@
     rainbow-mode
     smex
     tldr
+    toml-mode
     web-mode
     ws-butler
     xquery-mode
