@@ -8,22 +8,24 @@
 # to create them. Tsar will keep the specified number of daily, weekly and
 # monthly backups, deleting the rest.
 # A few configuration options are available below this section.
-# 
+#
 # Options:
 # -d   Dry run. Will show the delete command instead of running it.
 # -v   Verbose output.
-# 
+#
 
 ###############################################################################
 # Configuration:
 # If you are using multiple keys or other specific options, you can specify them here:
-TARSNAP_R="tarsnap -v --list-archives --keyfile /root/tarsnap.read.key" # for getting archive list
-TARSNAP_D="tarsnap -d --keyfile /root/tarsnap.key" # for deleting, archive names will be appended here
+# for getting archive list:
+TARSNAP_R="tarsnap -v --list-archives --keyfile /root/tarsnap.key"
+# for deleting, archive names will be appended here
+TARSNAP_D="tarsnap -d --keyfile /root/tarsnap.key"
 
 # Number of daily, weekly and monthly backups to keep:
-DAILY=30
-WEEKLY=12
-MONTHLY=48
+DAILY=7
+WEEKLY=4
+MONTHLY=24
 
 DOW=1 # Day of the week for weekly # 0 is Sunday
 DOM=1 # Day of the month for monthly
@@ -65,7 +67,7 @@ while read -r line;do
     FILE_DOW=$(date +%w -d "$FILE_DATE")
     FILE_DOM=$(date +%d -d "$FILE_DATE")
     FILE_UNIX=$(date +%s -d "$FILE_DATE")
-    
+
     if [ $((DATE_UNIX-FILE_UNIX)) -lt "$DAILY_DIFF_SEC" ];then
         if [ "$VERBOSE" -eq 1 ];then
             echo "File younger than $DAILY days, not touching: $FILE_NAME"
