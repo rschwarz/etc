@@ -33,6 +33,10 @@
 (setq org-habit-preceding-days 0) ; hide habit graph
 (setq org-hide-emphasis-markers t)
 
+;; show total clocked time in hours, not days, as per:
+;; http://stackoverflow.com/questions/17929979/emacs-org-mode-how-to-stop-total-in-column-view-showing-number-of-days
+(setq org-time-clocksum-format '(:hours "%d" :require-hours t :minutes ":%02d" :require-minutes t))
+
 ; safety
 (setq org-catch-invisible-edits 'error)
 
