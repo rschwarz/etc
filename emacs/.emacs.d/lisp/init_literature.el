@@ -34,7 +34,7 @@
              '("\\.pdf\\'" . "xpdf %s"))
 
 (add-to-list 'org-file-apps
-             '("\\.djvu\\'" . "okular %s"))
+             '("\\.djvu\\'" . "evince %s"))
 
 (add-to-list 'org-file-apps
              '("\\.xoj\\'" . "xournal %s"))
