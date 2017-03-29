@@ -1,7 +1,7 @@
 ;; global keybindings
 
 (global-set-key (kbd "<f1>") 'comment-or-uncomment-region)
-; f2
+; f2 (some kind of modifier?)
 ; f3 start macro
 ; f4 end macro
 (global-set-key (kbd "<f5>") 'compile)
@@ -22,3 +22,6 @@
 (global-set-key (kbd "C-c n") (lambda () (interactive) (org-capture nil "n")))
 (global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "C-c L") 'rs-lit-entry)
+
+;; setup font size
+(global-set-key (kbd "C-=") 'text-scale-adjust)
