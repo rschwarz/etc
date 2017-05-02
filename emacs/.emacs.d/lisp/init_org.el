@@ -26,12 +26,14 @@
               (tags . " %-12c")
               (search . " %-12c"))))
 (setq org-agenda-tags-column -80)
-(setq org-log-into-drawer t)
 (setq org-modules (quote (org-habit org-info)))
 (setq org-habit-show-habits-only-for-today nil)
 (setq org-habit-following-days 0) ; hide habit graph
 (setq org-habit-preceding-days 0) ; hide habit graph
 (setq org-hide-emphasis-markers t)
+
+;; don't log changes, because they will kill performance in the long-term!
+(setq org-log-done nil)
 
 ;; show total clocked time in hours, not days, as per:
 ;; http://stackoverflow.com/questions/17929979/emacs-org-mode-how-to-stop-total-in-column-view-showing-number-of-days
