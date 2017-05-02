@@ -49,13 +49,6 @@
 (setq org-default-notes-file "~/org/notes.org")
 (setq org-capture-templates '(("n" "Note" entry (file "~/org/notes.org") "* %?")))
 
-; refiling
-(setq org-refile-targets '((org-agenda-files :maxlevel . 9)
-                           ("~/org/ref.org" :maxlevel . 9)))
-(setq org-refile-use-outline-path t)
-(setq org-outline-path-complete-in-steps nil)
-(setq org-completion-use-ido t)
-
 ; exporting, use tag `ignore` to exclude heading, but put content
 (require 'ox-extra)
 (ox-extras-activate '(ignore-headlines))
