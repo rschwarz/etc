@@ -334,6 +334,12 @@
         <command>scrot '%F_%s.png' -s -e 'mv $f ~/in/'</command>
       </action>
     </keybind>
+    <!-- Select region/window and record screencast -->
+    <keybind key="W-p">
+      <action name="Execute">
+        <command>peek</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
