@@ -15,5 +15,11 @@ synclient TapButton3=3
 USALIVE=${HOME}/src/us_alive
 setxkbmap -I${USALIVE} us_alive -print | xkbcomp -I${USALIVE} - $DISPLAY
 
+# enable compositing window manager (for peek)
+xcompmgr &
+
+# set background color to brighter gray
+hsetroot -solid "#808080"
+
 # start openbox
 exec openbox-session
