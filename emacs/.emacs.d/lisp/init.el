@@ -47,5 +47,8 @@
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 4)
 
+;; skeleton, no trailing newline
+(setq skeleton-end-newline nil)
+
 ;; emacs server/client
 (server-start)

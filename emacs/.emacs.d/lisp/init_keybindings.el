@@ -22,6 +22,7 @@
 (global-set-key (kbd "C-c n") (lambda () (interactive) (org-capture nil "n")))
 (global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "C-c L") 'rs-lit-entry)
+(global-set-key (kbd "C-c b") 'rs-bug-entry)
 
 ;; setup font size
 (global-set-key (kbd "C-=") 'text-scale-adjust)
