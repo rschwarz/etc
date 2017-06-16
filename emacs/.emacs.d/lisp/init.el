@@ -20,6 +20,7 @@
 (load "init_ido.el")
 (load "init_julia.el")
 (load "init_literature.el")
+(load "init_litic.el")
 (load "init_mail.el")
 (load "init_markdown.el")
 (load "init_minizinc.el")
