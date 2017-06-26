@@ -55,6 +55,9 @@
 (require 'ox-extra)
 (ox-extras-activate '(ignore-headlines))
 
+; allow exporting to MediaWiki syntax
+(require 'ox-mediawiki)
+
 ; reset checkboxes in repeating tasks
 (require 'org-checklist)
 
