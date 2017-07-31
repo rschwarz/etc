@@ -51,5 +51,8 @@
 ;; skeleton, no trailing newline
 (setq skeleton-end-newline nil)
 
+;; use octave-mode for MATLAB files
+(add-to-list 'auto-mode-alist '("\\.m\\'" . octave-mode))
+
 ;; emacs server/client
 (server-start)
