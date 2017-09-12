@@ -328,6 +328,11 @@
         <command>dmenu_run</command>
       </action>
     </keybind>
+    <keybind key="W-x">
+      <action name="Execute">
+        <command>dmenu_run</command>
+      </action>
+    </keybind>
     <!-- Select region/window and take screenshot -->
     <keybind key="W-s">
       <action name="Execute">
