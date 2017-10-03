@@ -1,6 +1,5 @@
 ;; c/c++ specific stuff
 
-(setq-default c-basic-offset 4)
 (setq-default c-default-style "bsd")
 (setq-default c-syntactic-indentation t)
 

@@ -44,9 +44,9 @@
 
 (setq-default vc-follow-symlinks t)
 
-;; no tabs
-(setq-default indent-tabs-mode nil)
-(setq-default tab-width 4)
+;; configure tabs
+(setq-default indent-tabs-mode t)
+(setq-default tab-width 8)
 
 ;; skeleton, no trailing newline
 (setq skeleton-end-newline nil)
