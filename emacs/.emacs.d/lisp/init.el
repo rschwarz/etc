@@ -54,5 +54,8 @@
 ;; use octave-mode for MATLAB files
 (add-to-list 'auto-mode-alist '("\\.m\\'" . octave-mode))
 
+;; enable dumb-jump mode
+(dumb-jump-mode)
+
 ;; emacs server/client
 (server-start)

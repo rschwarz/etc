@@ -14,6 +14,7 @@
 (defvar prelude-packages
   '(
     auctex
+    dumb-jump
     fill-column-indicator
     gnugo
     go-mode
