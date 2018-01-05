@@ -18,6 +18,7 @@
     fill-column-indicator
     gnugo
     go-mode
+    helm
     idle-highlight
     julia-mode
     julia-shell
@@ -29,7 +30,6 @@
     org-plus-contrib
     rainbow-delimiters
     rainbow-mode
-    smex
     tldr
     toml-mode
     web-mode
