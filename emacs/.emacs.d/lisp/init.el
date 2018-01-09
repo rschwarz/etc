@@ -9,6 +9,7 @@
 (load "init_lookfeel.el")
 
 (load "init_ada.el")
+(load "init_backup.el")
 (load "init_c.el")
 ;; (load "init_cmake.el")
 ;; (load "init_csv.el")
