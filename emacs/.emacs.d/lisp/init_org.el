@@ -33,7 +33,11 @@
 (setq org-hide-emphasis-markers t)
 
 ;; don't log changes, because they will kill performance in the long-term!
-(setq org-log-done nil)
+(setq org-log-repeat nil)
+
+;; but for some things, we log it:
+(setq org-log-into-drawer t) ; to hide them in LOGBOOK
+(setq org-log-done 'time) ; CLOSED, to see "done" items at end of week
 
 ;; show total clocked time in hours, not days, as per:
 ;; http://stackoverflow.com/questions/17929979/emacs-org-mode-how-to-stop-total-in-column-view-showing-number-of-days
