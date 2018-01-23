@@ -1,6 +1,21 @@
 (require 'ox-latex)
 (require 'ox-beamer)
 
+(setq org-latex-default-packages-alist
+      '(("AUTO" "inputenc" t ("pdflatex"))
+	;; ("T1" "fontenc" t ("pdflatex")) ; disable to avoid xpdf bug
+	("" "graphicx" t)
+	("" "grffile" t)
+	("" "longtable" nil)
+	("" "wrapfig" nil)
+	("" "rotating" nil)
+	("normalem" "ulem" t)
+	("" "amsmath" t)
+	("" "textcomp" t)
+	("" "amssymb" t)
+	("" "capt-of" nil)
+	("" "hyperref" nil)))
+
 (setq org-latex-pdf-process '("pdflatex -interaction nonstopmode -output-directory %o %f"
                               "bibtex %b"
                               "pdflatex -interaction nonstopmode -output-directory %o %f"
