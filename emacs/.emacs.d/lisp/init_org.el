@@ -26,10 +26,6 @@
               (tags . " %-12c")
               (search . " %-12c"))))
 (setq org-agenda-tags-column -80)
-(setq org-modules (quote (org-habit org-info)))
-(setq org-habit-show-habits-only-for-today nil)
-(setq org-habit-following-days 0) ; hide habit graph
-(setq org-habit-preceding-days 0) ; hide habit graph
 (setq org-hide-emphasis-markers t)
 
 ;; don't log changes, because they will kill performance in the long-term!
