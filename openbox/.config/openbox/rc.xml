@@ -345,6 +345,37 @@
         <command>peek</command>
       </action>
     </keybind>
+    <!-- Start timer with multiple of 10 minutes -->
+    <keybind key="W-S-1">
+      <action name="Execute">
+        <command>pomo.sh 10</command>
+      </action>
+    </keybind>
+    <keybind key="W-S-2">
+      <action name="Execute">
+        <command>pomo.sh 20</command>
+      </action>
+    </keybind>
+    <keybind key="W-S-3">
+      <action name="Execute">
+        <command>pomo.sh 30</command>
+      </action>
+    </keybind>
+    <keybind key="W-S-4">
+      <action name="Execute">
+        <command>pomo.sh 40</command>
+      </action>
+    </keybind>
+    <keybind key="W-S-5">
+      <action name="Execute">
+        <command>pomo.sh 50</command>
+      </action>
+    </keybind>
+    <keybind key="W-S-6">
+      <action name="Execute">
+        <command>pomo.sh 60</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
