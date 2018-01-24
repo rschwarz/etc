@@ -13,7 +13,9 @@ function display_help ()
 
 function display_finished ()
 {
-    zenity --question --title="pomo" \
+    WINDOWID=
+    zenity --question \
+	   --title="pomo.sh" \
            --text "Timer finished: $minutes minutes passed." \
            --ok-label="Close" \
            --cancel-label="Restart"
