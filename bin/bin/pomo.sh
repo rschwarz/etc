@@ -11,6 +11,16 @@ function display_help ()
     exit 1
 }
 
+function display_start ()
+{
+    WINDOWID=
+    zenity --question \
+	   --title="pomo.sh" \
+           --text "Start timer for $minutes minutes?" \
+           --ok-label="OK" \
+           --cancel-label="No"
+}
+
 function display_finished ()
 {
     WINDOWID=
@@ -27,7 +37,7 @@ function display_finished ()
 
 if [[ -n "$minutes" ]]
 then
-    sleep $((minutes * 60)) && display_finished
+    display_start && sleep $((minutes * 60)) && display_finished
 else
     display_help
 fi
