@@ -3,6 +3,7 @@
 ~/literature,commit,pull,push
 ~/litic,pull,push
 ~/org,commit,pull,push
+~/src/datasets,pull,push
 ~/src/diss,commit,pull,push
 ~/src/gitthemall,pull
 ~/src/us_alive,pull,push
