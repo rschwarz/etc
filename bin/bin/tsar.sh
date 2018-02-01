@@ -18,14 +18,14 @@
 # Configuration:
 # If you are using multiple keys or other specific options, you can specify them here:
 # for getting archive list:
-TARSNAP_R="tarsnap -v --list-archives --keyfile /root/tarsnap.key"
+TARSNAP_R="sudo tarsnap -v --list-archives --keyfile /root/tarsnap.key"
 # for deleting, archive names will be appended here
-TARSNAP_D="tarsnap -d --keyfile /root/tarsnap.key"
+TARSNAP_D="sudo tarsnap -d --keyfile /root/tarsnap.key"
 
 # Number of daily, weekly and monthly backups to keep:
-DAILY=7
-WEEKLY=4
-MONTHLY=24
+DAILY=4
+WEEKLY=2
+MONTHLY=18
 
 DOW=1 # Day of the week for weekly # 0 is Sunday
 DOM=1 # Day of the month for monthly
