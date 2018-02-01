@@ -26,7 +26,6 @@
               (tags . " %-12c")
               (search . " %-12c"))))
 (setq org-agenda-tags-column -80)
-(setq org-hide-emphasis-markers t)
 
 ;; don't log changes, because they will kill performance in the long-term!
 (setq org-log-repeat nil)
