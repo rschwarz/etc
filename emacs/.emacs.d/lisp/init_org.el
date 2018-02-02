@@ -9,7 +9,6 @@
 (add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
 
 ; some display settings
-(setq org-hide-leading-stars t)
 (setq org-agenda-span 1)
 (setq org-deadline-warning-days 7)
 (setq org-agenda-skip-deadline-if-done t)
@@ -26,6 +25,10 @@
               (tags . " %-12c")
               (search . " %-12c"))))
 (setq org-agenda-tags-column -80)
+
+; clean view
+(setq org-hide-leading-stars t)
+(setq org-odd-levels-only t)
 
 ;; don't log changes, because they will kill performance in the long-term!
 (setq org-log-repeat nil)
