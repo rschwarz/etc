@@ -28,7 +28,8 @@
 
 ; clean view
 (setq org-hide-leading-stars t)
-(setq org-odd-levels-only t)
+(setq org-odd-levels-only nil)
+(setq org-adapt-indentation nil)
 
 ;; don't log changes, because they will kill performance in the long-term!
 (setq org-log-repeat nil)
