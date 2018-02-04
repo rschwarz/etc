@@ -8,6 +8,7 @@
 
 (load "init_lookfeel.el")
 
+(load "init_abbrev.el")
 (load "init_ada.el")
 (load "init_backup.el")
 (load "init_c.el")
