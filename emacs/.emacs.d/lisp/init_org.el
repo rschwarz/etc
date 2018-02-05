@@ -56,10 +56,6 @@
 (setq org-agenda-dim-blocked-tasks t)
 (setq org-enforce-todo-checkbox-dependencies nil)
 
-; capture
-(setq org-default-notes-file "~/org/notes.org")
-(setq org-capture-templates '(("n" "Note" entry (file "~/org/notes.org") "* %?")))
-
 ; exporting, use tag `ignore` to exclude heading, but put content
 (require 'ox-extra)
 (ox-extras-activate '(ignore-headlines))
