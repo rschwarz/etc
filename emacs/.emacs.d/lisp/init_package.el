@@ -19,6 +19,7 @@
     gnugo
     go-mode
     helm
+    helm-ag
     idle-highlight-mode
     julia-mode
     julia-shell
