@@ -20,6 +20,7 @@
     go-mode
     helm
     helm-ag
+    helm-org-rifle
     helm-z
     idle-highlight-mode
     julia-mode

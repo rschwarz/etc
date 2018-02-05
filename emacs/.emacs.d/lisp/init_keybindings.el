@@ -24,5 +24,9 @@
 (global-set-key (kbd "C-c L") 'rs-lit-entry)
 (global-set-key (kbd "C-c b") 'rs-bug-entry)
 
+; helm
+(global-set-key (kbd "C-c z") 'helm-z)
+(global-set-key (kbd "C-c r") 'helm-org-rifle-directories)
+
 ;; setup font size
 (global-set-key (kbd "C-=") 'text-scale-adjust)
