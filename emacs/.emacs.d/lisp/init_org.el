@@ -42,6 +42,12 @@
 ;; http://stackoverflow.com/questions/17929979/emacs-org-mode-how-to-stop-total-in-column-view-showing-number-of-days
 (setq org-time-clocksum-format '(:hours "%d" :require-hours t :minutes ":%02d" :require-minutes t))
 
+;; only show today's time on this task
+(setq org-clock-mode-line-total 'today)
+
+;; but don't show it at all now
+(setq org-clock-clocked-in-display nil)
+
 ; safety
 (setq org-catch-invisible-edits 'error)
 
