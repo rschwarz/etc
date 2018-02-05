@@ -19,7 +19,7 @@
     gnugo
     go-mode
     helm
-    idle-highlight
+    idle-highlight-mode
     julia-mode
     julia-shell
     ledger-mode
