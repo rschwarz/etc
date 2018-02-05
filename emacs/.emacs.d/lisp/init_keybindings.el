@@ -19,7 +19,7 @@
 
 ; for org-mode
 (global-set-key (kbd "C-c a") 'org-agenda)
-(global-set-key (kbd "C-c n") (lambda () (interactive) (org-capture nil "n")))
+(global-set-key (kbd "C-c c") 'org-capture)
 (global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "C-c L") 'rs-lit-entry)
 (global-set-key (kbd "C-c b") 'rs-bug-entry)
