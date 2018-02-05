@@ -28,6 +28,7 @@
     mo-git-blame
     org-bullets
     org-plus-contrib
+    ox-mediawiki
     rainbow-delimiters
     rainbow-mode
     tldr
