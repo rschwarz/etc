@@ -14,6 +14,7 @@
 (defvar prelude-packages
   '(
     auctex
+    dockerfile-mode
     dumb-jump
     fill-column-indicator
     gnugo
