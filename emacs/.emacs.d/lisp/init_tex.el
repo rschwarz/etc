@@ -1,5 +1,7 @@
 ;; (la)tex specifics
 
+(use-package tex :ensure auctex)
+
 ;; nice paragraphs for LaTeX/diff
 ;; from http://pleasefindattached.blogspot.de/2011/12/emacsauctex-sentence-fill-greatly.html
 (defadvice LaTeX-fill-region-as-paragraph (around LaTeX-sentence-filling)

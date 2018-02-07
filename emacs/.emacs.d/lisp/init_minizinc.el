@@ -1,6 +1,6 @@
 ;; MiniZinc customization
 
-(require 'minizinc)
+(use-package minizinc :pin manual)
 
 (add-to-list 'auto-mode-alist '("\\.mzn\\'" . minizinc-mode))
 

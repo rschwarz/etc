@@ -1,6 +1,6 @@
 ;; ZIMPL customization
 
-(require 'zimpl-mode)
+(use-package zimpl-mode :ensure nil)
 
 (add-to-list 'auto-mode-alist '("\\.zpl\\'" . zimpl-mode))
 

@@ -1,8 +1,7 @@
 ;; Cython mode
 
 ;; Load python-mode if available, otherwise use builtin emacs python package
-(when (not(require 'python-mode nil t))
-  (require 'python))
+(use-package python)
 
 (add-to-list 'auto-mode-alist '("\\.pyx\\'" . cython-mode))
 (add-to-list 'auto-mode-alist '("\\.pxd\\'" . cython-mode))

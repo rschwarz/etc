@@ -1,6 +1,6 @@
 ;; cmake specifics
 
-(require 'cmake-mode)
+(use-package cmake-mode)
 
 (setq auto-mode-alist
 	  (append

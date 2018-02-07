@@ -42,13 +42,14 @@
 (setq-default indicate-empty-lines t)
 
 ;; better buffer names
-(require 'uniquify)
+(use-package uniquify :ensure nil) ; is built-in?
 (setq uniquify-buffer-name-style 'forward)
 
 ;; help enforce 80 column rule
 ;; add hooks with (lambda () (fci-mode 1))
+(use-package fill-column-indicator)
 (setq-default fci-rule-column 80)
-(setq-default fci-rule-color "#eeeeec") ;; with solarized-light
+(setq-default fci-rule-color "#dddddd") ;; with solarized-light
 ;; (setq-default fci-rule-color "#eee8d5") ;; with solarized-light
 ;; (setq-default fci-rule-color "#073642") ;; with solarized-dark:
 (setq-default fill-column 80)
@@ -68,4 +69,5 @@
 (setq require-final-newline t)
 
 ;; idle-highlight mode
+(use-package idle-highlight-mode)
 (custom-set-faces '(idle-highlight ((t (:inherit lazy-highlight)))))

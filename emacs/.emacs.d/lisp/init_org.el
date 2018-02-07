@@ -1,6 +1,9 @@
 ;; org-mode customization
-(require 'org)
-(package-initialize)
+(use-package org :ensure org-plus-contrib)
+(use-package org-checklist :ensure nil)
+
+(use-package ox-extra :ensure nil)
+(use-package ox-mediawiki)
 
 ;; special settings for latex export of org
 (load "latexport.el")
@@ -57,14 +60,7 @@
 (setq org-enforce-todo-checkbox-dependencies nil)
 
 ; exporting, use tag `ignore` to exclude heading, but put content
-(require 'ox-extra)
 (ox-extras-activate '(ignore-headlines))
-
-; allow exporting to MediaWiki syntax
-(require 'ox-mediawiki)
-
-; reset checkboxes in repeating tasks
-(require 'org-checklist)
 
 ; org babel
 (setq org-confirm-babel-evaluate nil)

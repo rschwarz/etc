@@ -1,5 +1,6 @@
 ;; julia specific customizations
-(require 'julia-shell)
+(use-package julia-mode)
+(use-package julia-shell)
 
 (setq julia-shell-program "~/opt/julia/bin/julia")
 (setq julia-shell-animate-logo nil)

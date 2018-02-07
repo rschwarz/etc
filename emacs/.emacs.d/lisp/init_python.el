@@ -20,5 +20,5 @@
 (add-hook 'python-mode-hook   (lambda () (idle-highlight 1)))
 (add-hook 'python-mode-hook 'ws-butler-mode)
 
-(require 'cython-mode)
+(use-package cython-mode :ensure nil)
 (add-to-list 'auto-mode-alist '("\\.sage\\'" . cython-mode))

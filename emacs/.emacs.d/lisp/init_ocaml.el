@@ -22,7 +22,7 @@
 
 ;; -- merlin setup ---------------------------------------
 
-(require 'merlin)
+(use-package merlin :ensure nil)
 
 ;; Enable Merlin for ML buffers
 (add-hook 'tuareg-mode-hook 'merlin-mode)
@@ -36,6 +36,6 @@
 (set-face-background 'merlin-type-face "#88FF44")
 
 ;; setup ocp-indent
-(require 'ocp-indent)
+(use-package ocp-indent)
 
 (add-hook 'tuareg-mode-hook (lambda () (fci-mode 1)))

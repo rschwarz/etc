@@ -1,5 +1,5 @@
 ;; yaml customzation
 
-(require 'yaml-mode)
+(use-package yaml-mode)
 (add-to-list 'auto-mode-alist '("\\.yml\\'" . yaml-mode))
 (add-to-list 'auto-mode-alist '("\\.yaml\\'" . yaml-mode))

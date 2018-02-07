@@ -1,5 +1,5 @@
 ;; configure smex
-(require 'smex)
+(use-package smex)
 (smex-initialize)
 
 (global-set-key (kbd "M-x") 'smex)

@@ -1,5 +1,5 @@
-(require 'ox-latex)
-(require 'ox-beamer)
+(use-package ox-latex :ensure nil)
+(use-package ox-beamer :ensure nil)
 
 (setq org-latex-default-packages-alist
       '(("AUTO" "inputenc" t ("pdflatex"))

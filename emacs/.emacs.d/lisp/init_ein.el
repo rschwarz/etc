@@ -1,6 +1,6 @@
 ;; configuration for ein (emacs ipython notebook)
 
-(require 'ein)
+(use-package ein)
 
 (setq ein:complete-on-dot nil)
 
