@@ -42,8 +42,7 @@
 (setq org-log-done 'time) ; CLOSED, to see "done" items at end of week
 
 ;; show total clocked time in hours, not days, as per:
-;; http://stackoverflow.com/questions/17929979/emacs-org-mode-how-to-stop-total-in-column-view-showing-number-of-days
-(setq org-time-clocksum-format '(:hours "%d" :require-hours t :minutes ":%02d" :require-minutes t))
+(setq org-duration-format 'h:mm)
 
 ;; only show today's time on this task
 (setq org-clock-mode-line-total 'today)
