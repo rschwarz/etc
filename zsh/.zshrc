@@ -55,9 +55,6 @@ DISABLE_AUTO_UPDATE="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git z)
 
-# export Z_DATA
-export Z_DATA=$HOME/.z
-
 # User configuration
 source $ZSH/oh-my-zsh.sh
 
