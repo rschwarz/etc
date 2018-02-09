@@ -55,7 +55,15 @@
 (setq-default fill-column 80)
 
 ;; ediff
+;; only show selected diffs
 (setq ediff-highlight-all-diffs nil)
+;; don't open separate little "frame" for control
+(setq ediff-window-setup-function 'ediff-setup-windows-plain)
+;; prefer buffers next to each other, if wide enough
+(setq ediff-split-window-function
+      (if (> (frame-width) 160)
+	  'split-window-horizontally
+	'split-window-vertically))
 
 ;; paste at point, not where the mouse points
 (setq mouse-yank-at-point t)
