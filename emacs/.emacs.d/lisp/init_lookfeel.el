@@ -79,3 +79,6 @@
 ;; idle-highlight mode
 (use-package idle-highlight-mode)
 (custom-set-faces '(idle-highlight ((t (:inherit lazy-highlight)))))
+
+;; expand-region
+(use-package expand-region)

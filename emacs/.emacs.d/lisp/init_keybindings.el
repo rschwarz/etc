@@ -29,4 +29,7 @@
 (global-set-key (kbd "C-c r") 'helm-org-rifle-directories)
 
 ;; setup font size
-(global-set-key (kbd "C-=") 'text-scale-adjust)
+(global-set-key (kbd "C-+") 'text-scale-adjust)
+
+;; expand region
+(global-set-key (kbd "C-=") 'er/expand-region)
