@@ -33,3 +33,6 @@
 
 ;; expand region
 (global-set-key (kbd "C-=") 'er/expand-region)
+
+;; ace-jump-word-mode (also accepts C-u for ace-jump-char-mode)
+(global-set-key (kbd "C-c SPC") 'ace-jump-mode)
