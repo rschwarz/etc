@@ -16,6 +16,8 @@
     ("cn" "constraint")
     ("dl" "download")
     ("dd" "deadline")
+    ("dp" "dependency")
+    ("dps" "dependencies")
     ("dv" "development")
     ("ln" "language")
     ("mgt" "management")
