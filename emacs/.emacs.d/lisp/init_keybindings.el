@@ -22,11 +22,12 @@
 (global-set-key (kbd "C-c c") 'org-capture)
 (global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "C-c L") 'rs-lit-entry)
-(global-set-key (kbd "C-c b") 'rs-bug-entry)
+(global-set-key (kbd "C-c b") 'rs-bug-entry) ; for LITIC
 
 ; helm
 (global-set-key (kbd "C-c z") 'helm-z)
 (global-set-key (kbd "C-c r") 'helm-org-rifle-directories)
+(global-set-key (kbd "C-c j") 'helm-imenu) ; C-c C-j calls imenu
 
 ;; setup font size
 (global-set-key (kbd "C-+") 'text-scale-adjust)
