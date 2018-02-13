@@ -33,5 +33,8 @@ export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/usr/lib/llvm-3.5/lib"
 # export Z_DATA (for emacs/helm-z)
 export Z_DATA=$HOME/.z
 
+# editor
+export EDITOR=emacsclient
+
 # auto-start X on first login shell
 [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
