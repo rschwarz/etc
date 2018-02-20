@@ -8,3 +8,6 @@
 ;; use-package
 (require 'use-package)
 (setq use-package-always-ensure t)
+
+;; package development
+(use-package package-lint)
