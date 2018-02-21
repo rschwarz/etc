@@ -4,3 +4,6 @@
 
 (use-package emmet-mode)
 (add-hook 'web-mode-hook   (lambda () (emmet-mode 1)))
+
+(use-package restclient)
+(use-package restclient-helm)
