@@ -3,6 +3,8 @@
 ;; enable globally
 (set-default 'abbrev-mode t)
 
+;; but don't show it in modeline
+(diminish 'abbrev-mode)
 
 ;; don't store in separate file, have all here
 (clear-abbrev-table global-abbrev-table)

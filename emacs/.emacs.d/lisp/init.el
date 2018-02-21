@@ -6,6 +6,9 @@
 ;; automatic package installation
 (load "init_package.el")
 
+;; load it before other packages
+(load "init_diminish.el")
+
 ;; general/global settings
 (load "init_lookfeel.el")
 
@@ -78,4 +81,5 @@
 ;; ledger
 (use-package ledger-mode)
 
-(use-package ws-butler)
+(use-package ws-butler
+  :diminish)
