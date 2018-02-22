@@ -36,6 +36,7 @@
 ;; (load "init_ocaml.el")
 (load "init_org.el")
 (load "init_python.el")
+(load "init_r.el")
 ;; (load "init_smex.el")
 (load "init_sql.el")
 (load "init_tex.el")
