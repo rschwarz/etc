@@ -5,6 +5,9 @@
 (use-package ox-extra :ensure nil)
 (use-package ox-mediawiki)
 
+;; use auto-fill always
+(add-hook 'org-mode-hook 'auto-fill-mode)
+
 ;; special settings for latex export of org
 (load "latexport.el")
 
