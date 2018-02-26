@@ -8,6 +8,5 @@
 
 (add-hook 'magit-log-edit-mode-hook 'turn-on-orgstruct)
 
-;; mo-git-blame
-(use-package mo-git-blame)
-(autoload 'mo-git-blame-current "mo-git-blame" nil t)
+;; git-timemachine
+(use-package git-timemachine)

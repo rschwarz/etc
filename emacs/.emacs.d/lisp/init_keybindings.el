@@ -10,7 +10,7 @@
 ; f8
 (global-set-key (kbd "<f9>") 'whitespace-cleanup)
 ; f10 menu-open
-(global-set-key (kbd "<f11>") 'mo-git-blame-current)
+(global-set-key (kbd "<f11>") 'git-timemachine)
 (global-set-key (kbd "<f12>") 'magit-status)
 
 ; smooth scrolling
