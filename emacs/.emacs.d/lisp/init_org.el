@@ -51,7 +51,7 @@
 (setq org-clock-mode-line-total 'today)
 
 ;; but don't show it at all now
-(setq org-clock-clocked-in-display nil)
+(setq org-clock-clocked-in-display 'frame-title)
 
 ; safety
 (setq org-catch-invisible-edits 'error)
