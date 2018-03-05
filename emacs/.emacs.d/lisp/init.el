@@ -85,3 +85,6 @@
 
 (use-package ws-butler
   :diminish)
+
+;; use custom scheme mode from MIT Scheme distribution
+(require 'xscheme)
