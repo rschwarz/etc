@@ -86,5 +86,5 @@
 (use-package ws-butler
   :diminish)
 
-;; use custom scheme mode from MIT Scheme distribution
-(require 'xscheme)
+;; scheme
+(setq-default scheme-program-name "guile")
