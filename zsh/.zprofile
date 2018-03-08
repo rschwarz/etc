@@ -2,7 +2,7 @@
 export LANG=en_US.UTF-8
 
 # locally installed
-export PATH="${HOME}/bin:${PATH}"
+export PATH="${HOME}/bin:${HOME}/opt/local/bin:${PATH}"
 
 # go dev
 export GOROOT="${HOME}/opt/go"
