@@ -4,3 +4,8 @@
 
 ;; geiser
 (use-package geiser)
+
+;; paredit
+(use-package paredit
+  :diminish)
+(add-hook 'scheme-mode-hook (lambda () (paredit-mode 1)))
