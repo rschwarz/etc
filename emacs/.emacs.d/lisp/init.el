@@ -38,6 +38,7 @@
 (load "init_org.el")
 (load "init_python.el")
 (load "init_r.el")
+(load "init_scheme.el")
 ;; (load "init_smex.el")
 (load "init_sql.el")
 (load "init_tex.el")
@@ -85,6 +86,3 @@
 
 (use-package ws-butler
   :diminish)
-
-;; scheme
-(setq-default scheme-program-name "guile")
