@@ -85,3 +85,7 @@
 
 ;; ace-jump
 (use-package ace-jump-mode)
+
+;; which key
+(use-package which-key
+  :diminish)
