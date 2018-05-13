@@ -6,5 +6,6 @@
 ~/src/datasets,pull,push
 ~/src/diss,commit,pull,push
 ~/src/gitthemall,pull
+~/src/leethargo.github.io,pull,push
 ~/src/scheme,commit,pull,push
 ~/src/us_alive,pull,push
