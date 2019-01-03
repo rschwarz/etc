@@ -1,4 +1,4 @@
-# You may need to manually set your language environment
+# language environment
 export LANG=en_US.UTF-8
 
 # locally installed
@@ -25,7 +25,6 @@ export SCIPOPTDIR=/usr/
 
 # Julia
 export JULIALANG_HOME=$HOME/opt/julia
-export PATH=${JULIALANG_HOME}/bin/:$PATH
 
 # Clang/LLVM
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:/usr/lib/llvm-3.5/lib"
