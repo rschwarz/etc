@@ -1,3 +1,4 @@
 ;; SQL specific customizations
 
-(use-package sql-clickhouse)
+;; TODO: fix for emacs 26?
+;; (use-package sql-clickhouse)

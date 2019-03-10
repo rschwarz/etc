@@ -72,7 +72,6 @@
  '(
    (ledger . t)
    (python . t)
-   (sh . t)
    (shell . t)
    ))
 (setq org-babel-sh-command "zsh")
