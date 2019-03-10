@@ -24,9 +24,9 @@
 ;; no beeps
 (setq-default visible-bell t)
 
-;; (set-default-font "Liberation Mono-12") ; thin, spacy
-;; (set-default-font "Inconsolata-14") ; round, no italics
-(set-default-font "DejaVuSansMono-12") ; simple, good unicode support!
+;; (set-frame-font "Liberation Mono-12") ; thin, spacy
+;; (set-frame-font "Inconsolata-14") ; round, no italics
+(set-frame-font "DejaVuSansMono-12") ; simple, good unicode support!
 
 (display-time-mode t)
 (setq-default display-time-24hr-format t)
