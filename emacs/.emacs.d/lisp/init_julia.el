@@ -9,3 +9,5 @@
 (add-hook 'julia-mode-hook (lambda () (fci-mode 1)))
 (add-hook 'julia-mode-hook (lambda () (idle-highlight-mode 1)))
 (add-hook 'julia-mode-hook 'ws-butler-mode)
+
+(add-hook 'julia-repl-hook #'julia-repl-use-emacsclient)
