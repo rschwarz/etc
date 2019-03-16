@@ -21,7 +21,7 @@ export ILOG_LICENSE_FILE=${CPLEX_HOME}/access.ilm
 export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${CPLEX_HOME}/cplex/bin/x86-64_linux/"
 
 # SCIP
-export SCIPOPTDIR=/usr/
+export SCIPOPTDIR=$HOME/opt/scip
 
 # Julia
 export JULIALANG_HOME=$HOME/opt/julia
