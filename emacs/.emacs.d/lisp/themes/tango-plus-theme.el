@@ -236,6 +236,15 @@ Semantic, and Ansi-Color faces are included.")
    `(ledger-font-posting-account-face ((,class (:foreground ,black))))
    `(ledger-font-posting-amount-face ((,class (:foreground ,cham-3))))
    `(ledger-font-posting-date-face ((,class (:foreground ,blue-3))))
+   ;; term
+   `(term-color-black ((,class (:foreground ,black))))
+   `(term-color-red ((,class (:foreground ,red-2))))
+   `(term-color-green ((,class (:foreground ,cham-2))))
+   `(term-color-yellow ((,class (:foreground ,butter-3))))
+   `(term-color-blue ((,class (:foreground ,blue-3))))
+   `(term-color-magenta ((,class (:foreground ,plum-1))))
+   `(term-color-cyan ((,class (:foreground ,blue-1))))
+   `(term-color-white ((,class (:foreground ,alum-2))))
    )
   (custom-theme-set-variables
    'tango-plus
