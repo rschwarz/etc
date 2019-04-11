@@ -7,10 +7,10 @@ function activenv(name::String)
 end
 
 # auto-enable Revise
-atreplinit() do repl
-    try
-        @eval using Revise
-        @async Revise.wait_steal_repl_backend()
-    catch
-    end
-end
+# atreplinit() do repl
+#     try
+#         @eval using Revise
+#         @async Revise.wait_steal_repl_backend()
+#     catch
+#     end
+# end
