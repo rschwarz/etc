@@ -25,7 +25,7 @@ TARSNAP_D="sudo tarsnap -d --keyfile /root/tarsnap.key"
 # Number of daily, weekly and monthly backups to keep:
 DAILY=7
 WEEKLY=4
-MONTHLY=24
+MONTHLY=12
 
 DOW=1 # Day of the week for weekly # 0 is Sunday
 DOM=1 # Day of the month for monthly
