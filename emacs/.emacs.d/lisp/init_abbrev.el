@@ -10,12 +10,6 @@
 (clear-abbrev-table global-abbrev-table)
 (define-abbrev-table 'global-abbrev-table
   '(
-    ;; actual abbreviations and shortcuts
-    ("bc" "because")
-    ("br" "best regards")
-    ("btw" "by the way")
-    ("dl" "download")
-    ("mgt" "management")
     ;; common typos (US over UK spelling)
     ("approximatly" "approximately")
     ("degenarate" "degenerate")
