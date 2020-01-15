@@ -6,4 +6,4 @@
 [receive]
     denyCurrentBranch = warn
 [github]
-	user = leethargo
+	user = rschwarz
