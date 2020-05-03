@@ -23,8 +23,8 @@
 (load "init_docker.el")
 (load "init_elisp.el")
 (load "init_git.el")
-(load "init_gnugo.el")
-(load "init_go.el")
+;; (load "init_gnugo.el")
+;; (load "init_go.el")
 (load "init_helm.el")
 ;; (load "init_hy.el")
 ;; (load "init_ido.el")
@@ -43,7 +43,7 @@
 (load "init_sql.el")
 (load "init_tex.el")
 (load "init_web.el")
-(load "init_writegood.el")
+;; (load "init_writegood.el")
 ;; (load "init_xquery.el")
 (load "init_yaml.el")
 ;; (load "init_zimpl.el")
@@ -60,19 +60,12 @@
 
 (use-package rainbow-mode)
 
-(use-package tldr)
-
-(setq-default vc-follow-symlinks t)
-
 ;; no tabs
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 4)
 
 ;; skeleton, no trailing newline
 (setq skeleton-end-newline nil)
-
-;; use octave-mode for MATLAB files
-(add-to-list 'auto-mode-alist '("\\.m\\'" . octave-mode))
 
 ;; enable dumb-jump mode
 (use-package dumb-jump)

@@ -1,7 +1,7 @@
 ;; helm customization
 (use-package helm)
 (use-package helm-ag)
-(use-package helm-org-rifle)
+;; (use-package helm-org-rifle)
 (use-package helm-z)
 
 (global-set-key (kbd "M-x") 'helm-M-x)

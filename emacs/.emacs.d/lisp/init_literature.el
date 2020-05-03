@@ -1,5 +1,7 @@
 ;; Custom functions for handling academic literature.
 
+(use-package org)
+
 ;; The literature is managed in a git repo in ~/literature. There is a
 ;; file literature.org containing notes for any article. This has a
 ;; unique CUSTOM_ID set, that is also the BibTeX key.
