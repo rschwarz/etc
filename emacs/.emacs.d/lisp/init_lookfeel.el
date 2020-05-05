@@ -1,7 +1,7 @@
 ;; look and feel
 
 ;; custom theme
-(add-to-list 'custom-theme-load-path "~/.emacs.d/lisp/themes")
+(use-package tango-plus-theme)
 (load-theme 'tango-plus t)
 
 ;; no more prompts
