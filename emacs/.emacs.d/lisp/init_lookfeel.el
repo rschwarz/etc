@@ -2,7 +2,9 @@
 
 ;; custom theme
 (use-package tango-plus-theme)
-(load-theme 'tango-plus t)
+
+(add-to-list 'custom-theme-load-path "~/.emacs.d/lisp/themes")
+(load-theme 'rs-tango-plus t)
 
 ;; no more prompts
 (fset 'yes-or-no-p 'y-or-n-p)
