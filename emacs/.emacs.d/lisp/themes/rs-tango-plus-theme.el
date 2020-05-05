@@ -75,7 +75,9 @@ Semantic, and Ansi-Color faces are included.")
       (plum-0 "#edc4e2") (plum-1 "#ad7fa8") (plum-2 "#75507b") (plum-3 "#5c3566")
       (red-0 "#ffe6e6") (red-1 "#ef2929") (red-2 "#cc0000") (red-3 "#a40000")
       (alum-1 "#eeeeec") (alum-2 "#d3d7cf") (alum-3 "#babdb6")
-      (alum-4 "#888a85") (alum-5 "#555753") (alum-6 "#2e3436"))
+      (alum-4 "#888a85") (alum-5 "#555753") (alum-6 "#2e3436")
+      (cyan-0 "#34e2e2") (cyan-4 "#06989a")
+      )
 
 
   (custom-theme-set-faces
@@ -399,14 +401,14 @@ Semantic, and Ansi-Color faces are included.")
    `(anzu-mode-line                 ((,class (:inherit mode-line))))
 
    ;; term:
-   `(term-color-black   ((,class (:foreground ,alum-6   :background ,alum-6))))
-   `(term-color-red     ((,class (:foreground ,red-1    :background ,red-1))))
-   `(term-color-green   ((,class (:foreground ,cham-1   :background ,cham-1))))
-   `(term-color-yellow  ((,class (:foreground ,butter-2 :background ,butter-2))))
-   `(term-color-blue    ((,class (:foreground ,blue-1   :background ,blue-1))))
-   `(term-color-magenta ((,class (:foreground ,plum-1   :background ,plum-1))))
-   `(term-color-cyan    ((,class (:foreground ,blue-0   :background ,blue-0))))
-   `(term-color-white   ((,class (:foreground ,alum-3   :background ,alum-3))))
+   `(term-color-black   ((,class (:foreground ,black    :background ,alum-5))))
+   `(term-color-red     ((,class (:foreground ,red-2    :background ,red-3))))
+   `(term-color-green   ((,class (:foreground ,cham-3   :background ,cham-1))))
+   `(term-color-yellow  ((,class (:foreground ,butter-3 :background ,butter-1))))
+   `(term-color-blue    ((,class (:foreground ,blue-2   :background ,blue-1))))
+   `(term-color-magenta ((,class (:foreground ,plum-2   :background ,plum-1))))
+   `(term-color-cyan    ((,class (:foreground ,cyan-4   :background ,cyan-0))))
+   `(term-color-white   ((,class (:foreground ,alum-2   :background ,alum-1))))
    )
 
   (custom-theme-set-variables
