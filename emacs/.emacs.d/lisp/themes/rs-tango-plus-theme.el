@@ -246,8 +246,7 @@ Semantic, and Ansi-Color faces are included.")
    ;; Org mode:
    `(org-quote                      ((,class (:inherit quote))))
    `(org-verbatim                   ((,class (:inherit quote))))
-   `(org-level-1                    ((,class (:inherit font-lock-keyword-face
-					      :height 1.3 :weight bold))))
+   `(org-level-1                    ((,class (:inherit font-lock-keyword-face :weight bold))))
    `(org-level-2                    ((,class (:inherit font-lock-keyword-face :weight bold))))
    `(org-level-3                    ((,class (:inherit font-lock-keyword-face))))
    `(org-level-4                    ((,class (:inherit font-lock-keyword-face))))
@@ -255,7 +254,7 @@ Semantic, and Ansi-Color faces are included.")
    `(org-level-6                    ((,class (:inherit font-lock-keyword-face))))
    `(org-level-7                    ((,class (:inherit font-lock-keyword-face))))
    `(org-level-8                    ((,class (:inherit font-lock-keyword-face))))
-   `(org-document-title             ((,class (:inherit font-lock-keyword-face :height 1.5 :weight bold))))
+   `(org-document-title             ((,class (:inherit font-lock-keyword-face :weight bold))))
    `(org-document-info              ((,class (:inherit font-lock-keyword-face))))
    `(org-document-info-keyword      ((,class (:inherit shadow))))
    `(org-meta-line                  ((,class (:inherit shadow))))
@@ -333,8 +332,7 @@ Semantic, and Ansi-Color faces are included.")
    `(git-commit-summary-face        ((,class (:inherit default))))
 
    ;; Helm
-   `(helm-source-header             ((,class (:inherit default :weight bold
-                                              :height 1.3))))
+   `(helm-source-header             ((,class (:inherit default :weight bold))))
    `(helm-selection                 ((,class (:inherit highlight))))
    `(helm-match                     ((,class (:inherit lazy-highlight))))
    `(helm-action                    ((,class ())))
