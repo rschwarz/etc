@@ -16,8 +16,8 @@
  (lambda (path desc format)
    (cond ((eq format 'latex)
           (if (not desc)
-              (format "\\cite{%s}" path)
-            (format "\\cite[%s]{%s}" desc path))))))
+              (format "\\autocite{%s}" path)
+            (format "\\autocite[%s]{%s}" desc path))))))
 
 ;; The skeletion is used to insert new entries to literature.org,
 ;; adding the CUSTOM_ID and further links automatically.
