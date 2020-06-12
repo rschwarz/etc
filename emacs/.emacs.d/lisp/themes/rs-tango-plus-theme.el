@@ -146,7 +146,7 @@ Semantic, and Ansi-Color faces are included.")
    `(font-lock-keyword-face         ((,class (:foreground ,blue-3 :weight bold))))
    `(font-lock-builtin-face         ((,class (:foreground ,plum-2))))
    `(font-lock-function-name-face   ((,class (:foreground ,red-3))))
-   `(font-lock-variable-name-face   ((,class (:foreground ,red-3))))
+   `(font-lock-variable-name-face   ((,class (:foreground ,blue-3))))
    `(font-lock-type-face            ((,class (:foreground ,red-3))))
    `(font-lock-constant-face        ((,class (:foreground ,choc-3
 					      :slant italic))))
