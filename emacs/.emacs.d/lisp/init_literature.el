@@ -41,6 +41,9 @@
 (add-to-list 'org-file-apps
              '("\\.xoj\\'" . "xournal %s"))
 
+(add-to-list 'org-file-apps
+             '("\\.xopp\\'" . "xournalpp %s"))
+
 ;; helm search
 (use-package helm-bibtex)
 (setq bibtex-completion-bibliography
