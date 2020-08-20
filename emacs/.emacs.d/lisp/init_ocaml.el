@@ -6,7 +6,6 @@
               auto-mode-alist)) 
 (autoload 'utop-setup-ocaml-buffer "utop" "Toplevel for OCaml" t)
 (add-hook 'tuareg-mode-hook 'utop-setup-ocaml-buffer)
-(add-hook 'tuareg-mode-hook 'ws-butler-mode)
 
 ;; setup tuareg colors
 (custom-set-faces

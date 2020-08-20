@@ -43,6 +43,5 @@
 (setq-default TeX-view-program-selection '((output-pdf "xpdf") (output-html "xdg-open")))
 
 (add-hook 'latex-mode-hook (lambda () (rainbow-delimiters-mode 1)))
-(add-hook 'latex-mode-hook 'ws-butler-mode)
 
 (add-to-list 'auto-mode-alist '("\\.tikz\\'" . latex-mode))

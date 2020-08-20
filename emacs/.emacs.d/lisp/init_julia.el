@@ -6,7 +6,6 @@
 (add-hook 'julia-mode-hook (lambda () (rainbow-delimiters-mode 1)))
 (add-hook 'julia-mode-hook (lambda () (fci-mode 1)))
 (add-hook 'julia-mode-hook (lambda () (idle-highlight-mode 1)))
-(add-hook 'julia-mode-hook 'ws-butler-mode)
 
 (use-package vterm)
 (use-package julia-snail

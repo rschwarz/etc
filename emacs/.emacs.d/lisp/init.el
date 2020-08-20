@@ -76,6 +76,3 @@
 
 ;; ledger
 (use-package ledger-mode)
-
-(use-package ws-butler
-  :diminish)

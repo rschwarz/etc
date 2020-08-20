@@ -9,4 +9,3 @@
 	   auto-mode-alist))
 
 (add-hook 'cmake-mode-hook   (lambda () (rainbow-delimiters-mode 1)))
-(add-hook 'cmake-mode-hook 'ws-butler-mode)
