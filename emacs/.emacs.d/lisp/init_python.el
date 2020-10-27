@@ -14,6 +14,9 @@
 ;;    "autopep8 -"
 ;;    t))
 
+(use-package sphinx-doc)
+
+(add-hook 'python-mode-hook   (lambda () (sphinx-doc-mode 1)))
 (add-hook 'python-mode-hook   (lambda () (subword-mode 1)))
 (add-hook 'python-mode-hook   (lambda () (rainbow-delimiters-mode 1)))
 (add-hook 'python-mode-hook   (lambda () (fci-mode 1)))
