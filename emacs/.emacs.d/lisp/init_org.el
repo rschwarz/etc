@@ -4,6 +4,7 @@
 
 (use-package ox-extra :ensure nil)
 (use-package ox-mediawiki)
+(use-package ox-rst)
 (use-package ox-textile)
 
 ;; use auto-fill always
