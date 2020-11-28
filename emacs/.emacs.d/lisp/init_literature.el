@@ -44,14 +44,5 @@
 (add-to-list 'org-file-apps
              '("\\.xopp\\'" . "xournalpp %s"))
 
-;; helm search
-(use-package helm-bibtex)
-(setq bibtex-completion-bibliography
-      '("~/literature/literature.bib"))
-(setq bibtex-completion-library-path
-      '("~/literature/"))
-(setq bibtex-completion-notes-path
-      "~/literature/literature.org")
-
 ;; pdf tools
 (use-package pdf-tools)
