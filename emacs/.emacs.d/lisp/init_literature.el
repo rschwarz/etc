@@ -44,5 +44,8 @@
 (add-to-list 'org-file-apps
              '("\\.xopp\\'" . "xournalpp %s"))
 
+(add-to-list 'org-file-apps
+             '("\\.epub\\'" . "ebook-viewer %s"))
+
 ;; pdf tools
 (use-package pdf-tools)
