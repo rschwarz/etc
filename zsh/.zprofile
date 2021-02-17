@@ -9,9 +9,9 @@ export GOROOT="${HOME}/opt/go"
 export PATH="${GOROOT}/bin:${PATH}"
 
 # Gurobi
-export GUROBI_HOME=$HOME/opt/gurobi/linux64
-export GRB_LICENSE_FILE=$GUROBI_HOME/gurobi.lic
-export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${GUROBI_HOME}/lib"
+# export GUROBI_HOME=$HOME/opt/gurobi/linux64
+# export GRB_LICENSE_FILE=$GUROBI_HOME/gurobi.lic
+# export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${GUROBI_HOME}/lib"
 
 # CPLEX
 export CPLEX_HOME=$HOME/opt/cplex126
