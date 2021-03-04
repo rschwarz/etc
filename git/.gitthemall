@@ -1,9 +1,6 @@
+~/doingthemath/org,pull,push
 ~/etc,pull,push
 ~/in/bureaucracy,pull,push
 ~/literature,commit,pull,push
 ~/org,commit,pull,push
-~/src/datasets,pull,push
 ~/src/diss,commit,pull,push
-~/src/gitthemall,pull
-~/src/litic/litic-org,pull,push
-~/src/us_alive,pull,push
