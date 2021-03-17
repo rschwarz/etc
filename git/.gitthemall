@@ -1,6 +1,6 @@
 ~/doingthemath/org,pull,push
 ~/etc,pull,push
-~/in/bureaucracy,pull,push
+~/in/bureaucracy,commit,pull,push
 ~/literature,commit,pull,push
 ~/org,commit,pull,push
 ~/src/diss,commit,pull,push
