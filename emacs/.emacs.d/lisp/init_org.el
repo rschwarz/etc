@@ -80,3 +80,8 @@
 ;; ascii export
 (setq org-ascii-inner-margin 0)
 (setq org-ascii-text-width 78)
+
+; org-roam
+(use-package org-roam)
+(setq org-roam-directory "~/org/roam")
+(add-hook 'after-init-hook 'org-roam-mode)

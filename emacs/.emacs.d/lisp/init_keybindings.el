@@ -24,6 +24,9 @@
 (global-set-key (kbd "C-c L") 'rs-lit-entry)
 (global-set-key (kbd "C-c B") 'helm-bibtex)
 (global-set-key (kbd "C-c b") 'rs-bug-entry) ; for LITIC
+; for org-roam
+(global-set-key (kbd "C-c f") 'org-roam-find-file)
+(global-set-key (kbd "C-c i") 'org-roam-insert)
 
 ; helm
 (global-set-key (kbd "C-c z") 'helm-z)
