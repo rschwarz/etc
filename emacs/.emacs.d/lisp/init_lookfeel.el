@@ -85,9 +85,6 @@
 ;; expand-region
 (use-package expand-region)
 
-;; ace-jump
-(use-package ace-jump-mode)
-
 ;; which key
 (use-package which-key
   :diminish)

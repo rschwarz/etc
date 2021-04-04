@@ -14,39 +14,22 @@
 
 ;; mode specific
 (load "init_abbrev.el")
-;; (load "init_ada.el")
 (load "init_backup.el")
 (load "init_c.el")
 ;; (load "init_cmake.el")
-;; (load "init_csv.el")
-;; (load "init_ein.el")
 (load "init_docker.el")
 (load "init_elisp.el")
 (load "init_git.el")
-;; (load "init_gnugo.el")
 ;; (load "init_go.el")
-;; (load "init_helm.el")
-;; (load "init_hy.el")
-;; (load "init_ido.el")
 (load "init_julia.el")
 (load "init_literature.el")
-(load "init_litic.el")
 (load "init_mail.el")
 (load "init_markdown.el")
-;; (load "init_minizinc.el")
-;; (load "init_ocaml.el")
 (load "init_org.el")
 (load "init_python.el")
-;; (load "init_r.el")
-(load "init_scheme.el")
-;; (load "init_smex.el")
-(load "init_sql.el")
 (load "init_tex.el")
 (load "init_web.el")
-;; (load "init_writegood.el")
-;; (load "init_xquery.el")
 (load "init_yaml.el")
-;; (load "init_zimpl.el")
 
 ;; global keybindings
 (load "init_keybindings.el")
@@ -63,9 +46,6 @@
 ;; no tabs
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 4)
-
-;; skeleton, no trailing newline
-(setq skeleton-end-newline nil)
 
 ;; enable dumb-jump mode
 (use-package dumb-jump)

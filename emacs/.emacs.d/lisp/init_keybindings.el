@@ -10,7 +10,7 @@
 ; f8
 (global-set-key (kbd "<f9>") 'whitespace-cleanup)
 ; f10 menu-open
-(global-set-key (kbd "<f11>") 'git-timemachine)
+; f11
 (global-set-key (kbd "<f12>") 'magit-status)
 
 ; smooth scrolling
@@ -22,22 +22,15 @@
 (global-set-key (kbd "C-c c") 'org-capture)
 (global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "C-c L") 'rs-lit-entry)
-(global-set-key (kbd "C-c B") 'helm-bibtex)
-(global-set-key (kbd "C-c b") 'rs-bug-entry) ; for LITIC
 ; for org-roam
 (global-set-key (kbd "C-c f") 'org-roam-find-file)
 (global-set-key (kbd "C-c i") 'org-roam-insert)
 
 ; helm
 (global-set-key (kbd "C-c z") 'helm-z)
-(global-set-key (kbd "C-c r") 'helm-org-rifle-directories)
-(global-set-key (kbd "C-c j") 'helm-imenu) ; C-c C-j calls imenu
 
 ;; setup font size
 (global-set-key (kbd "C-+") 'text-scale-adjust)
 
 ;; expand region
 (global-set-key (kbd "C-=") 'er/expand-region)
-
-;; ace-jump-word-mode (also accepts C-u for ace-jump-char-mode)
-(global-set-key (kbd "C-c SPC") 'ace-jump-mode)
