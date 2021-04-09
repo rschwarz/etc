@@ -12,6 +12,9 @@
 ;; general/global settings
 (load "init_lookfeel.el")
 
+;; completion
+(load "init_ivy.el")
+
 ;; mode specific
 (load "init_abbrev.el")
 (load "init_backup.el")
