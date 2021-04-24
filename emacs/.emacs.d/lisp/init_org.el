@@ -85,3 +85,19 @@
 (use-package org-roam)
 (setq org-roam-directory "~/org/roam")
 (add-hook 'after-init-hook 'org-roam-mode)
+
+;; moving subtrees to top/bottom of parent
+;; https://emacs.stackexchange.com/a/43662/22225
+(defun JK-org-move-to-extreme (up)
+  "Move current org subtree to the end of its parent.
+With prefix arg move subtree to the start of its parent."
+  (interactive "P")
+  (condition-case err
+      (while t
+        (funcall (if up
+                     'org-move-subtree-up
+                   'org-move-subtree-down)))
+    (user-error
+     (let ((err-msg (cadr err)))
+       (unless (string-match "Cannot move past superior level or buffer limit" err-msg)
+         (signal 'user-error (list err-msg)))))))
