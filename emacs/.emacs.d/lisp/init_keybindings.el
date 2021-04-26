@@ -26,6 +26,7 @@
 ; for org-roam
 (global-set-key (kbd "C-c f") 'org-roam-find-file)
 (global-set-key (kbd "C-c i") 'org-roam-insert)
+(global-set-key (kbd "C-c d") 'deft)
 
 ;; ivy / swiper / counsel
 (global-set-key (kbd "C-s") 'swiper)

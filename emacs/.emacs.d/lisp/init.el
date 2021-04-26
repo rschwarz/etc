@@ -20,6 +20,7 @@
 (load "init_backup.el")
 (load "init_c.el")
 ;; (load "init_cmake.el")
+(load "init_deft.el")
 (load "init_docker.el")
 (load "init_elisp.el")
 (load "init_git.el")
