@@ -82,6 +82,7 @@
 (setq org-ascii-text-width 78)
 
 ; org-roam
+(setq org-roam-v2-ack t)
 (use-package org-roam)
 (setq org-roam-directory "~/org/roam")
 (add-hook 'after-init-hook 'org-roam-mode)
