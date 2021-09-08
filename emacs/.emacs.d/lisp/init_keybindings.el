@@ -29,7 +29,7 @@
 (global-set-key (kbd "C-c d") 'deft)
 
 ;; ivy / swiper / counsel
-(global-set-key (kbd "C-s") 'swiper)
+; (global-set-key (kbd "C-s") 'swiper)
 
 ; helm
 (global-set-key (kbd "C-c z") 'helm-z)
