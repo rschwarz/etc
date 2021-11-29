@@ -6,6 +6,7 @@
 (use-package ox-mediawiki)
 (use-package ox-rst)
 (use-package ox-textile)
+(use-package ox-gfm)
 
 ;; use auto-fill always
 (add-hook 'org-mode-hook 'auto-fill-mode)
