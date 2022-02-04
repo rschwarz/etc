@@ -1,8 +1,5 @@
 #!/bin/sh
 
-# invoke global X session script
-. /etc/X11/Xsession
-
 # machine specific settings
 [ -f ~/.xprofile ] && . ~/.xprofile
 
@@ -23,6 +20,9 @@ xcompmgr &
 
 # set background color to brighter gray
 hsetroot -solid "#808080"
+
+# invoke global X session script
+. /etc/X11/Xsession
 
 # start openbox
 exec openbox-session
