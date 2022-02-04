@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# invoke global X session script
+. /etc/X11/Xsession
+
 # machine specific settings
 [ -f ~/.xprofile ] && . ~/.xprofile
 
