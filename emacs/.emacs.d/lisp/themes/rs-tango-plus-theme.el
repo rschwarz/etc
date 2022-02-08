@@ -114,8 +114,8 @@ Semantic, and Ansi-Color faces are included.")
    ;; `window-divider-last-pixel'.
    `(minibuffer-prompt              ((,class (:weight bold
 					      :foreground ,blue-3))))
-   `(fringe                         ((,class (:foreground ,alum-2
-					      :background ,white))))
+   `(fringe                         ((,class (:foreground ,black
+					      :background ,alum-1))))
    ;; Skipping `scroll-bar', `border'.
    `(cursor                         ((,class (:inverse-video t))))
    ;; Skipping `mouse', `tool-bar', `menu'.
