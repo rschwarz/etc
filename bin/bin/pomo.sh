@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 # Pomodoro clock with zenity notifications
 # from https://pastebin.com/tcLkfWL8
 
@@ -35,9 +35,4 @@ function display_finished ()
     esac
 }
 
-if [[ -n "$minutes" ]]
-then
-    display_start && sleep $((minutes * 60)) && display_finished
-else
-    display_help
-fi
+display_start && sleep $((minutes * 60)) && display_finished
