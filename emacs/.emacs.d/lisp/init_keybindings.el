@@ -24,8 +24,10 @@
 (global-set-key (kbd "C-c L") 'rs-lit-entry)
 (global-set-key (kbd "C-c q") 'JK-org-move-to-extreme)
 ; for org-roam
-(global-set-key (kbd "C-c f") 'org-roam-find-file)
-(global-set-key (kbd "C-c i") 'org-roam-insert)
+(global-set-key (kbd "C-c f") 'org-roam-node-find)
+(global-set-key (kbd "C-c i") 'org-roam-node-insert)
+(global-set-key (kbd "C-c t") 'org-roam-buffer-toggle)
+(global-set-key (kbd "C-c s") 'org-roam-alias-add)
 (global-set-key (kbd "C-c d") 'deft)
 
 ;; setup font size

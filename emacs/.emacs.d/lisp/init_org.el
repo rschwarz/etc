@@ -86,6 +86,7 @@
 (setq org-roam-v2-ack t)
 (use-package org-roam)
 (setq org-roam-directory "~/org/roam")
+(org-roam-db-autosync-mode)
 (add-hook 'after-init-hook 'org-roam-mode)
 
 ;; moving subtrees to top/bottom of parent
