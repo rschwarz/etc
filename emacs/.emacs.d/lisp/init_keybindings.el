@@ -28,12 +28,6 @@
 (global-set-key (kbd "C-c i") 'org-roam-insert)
 (global-set-key (kbd "C-c d") 'deft)
 
-;; ivy / swiper / counsel
-; (global-set-key (kbd "C-s") 'swiper)
-
-; helm
-(global-set-key (kbd "C-c z") 'helm-z)
-
 ;; setup font size
 (global-set-key (kbd "C-+") 'text-scale-adjust)
 
