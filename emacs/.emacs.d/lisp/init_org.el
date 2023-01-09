@@ -1,5 +1,5 @@
 ;; org-mode customization
-(use-package org :ensure org-plus-contrib)
+(use-package org :ensure org-contrib)
 (use-package org-checklist :ensure nil)
 
 (use-package ox-extra :ensure nil)
