@@ -1,12 +1,6 @@
 ;; org-mode customization
-(use-package org :ensure org-contrib)
-(use-package org-checklist :ensure nil)
-
-(use-package ox-extra :ensure nil)
-(use-package ox-mediawiki)
-(use-package ox-rst)
-(use-package ox-textile)
-(use-package ox-gfm)
+(use-package org)
+; (use-package org-contrib :ensure nil)
 
 ;; use auto-fill always
 (add-hook 'org-mode-hook 'auto-fill-mode)
@@ -63,9 +57,6 @@
 (setq org-enforce-todo-dependencies t)
 (setq org-agenda-dim-blocked-tasks t)
 (setq org-enforce-todo-checkbox-dependencies nil)
-
-; exporting, use tag `ignore` to exclude heading, but put content
-(ox-extras-activate '(ignore-headlines))
 
 ; org babel
 (setq org-confirm-babel-evaluate nil)
