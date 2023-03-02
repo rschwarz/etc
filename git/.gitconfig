@@ -1,6 +1,7 @@
 [user]
     name = Robert Schwarz
-    email = mail@rschwarz.net
+    # email = mail@rschwarz.net
+    email = robert@doingthemath.nl
 [push]
     default = current
 [receive]
