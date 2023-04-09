@@ -1,6 +1,6 @@
 ;; org-mode customization
 (use-package org)
-; (use-package org-contrib :ensure nil)
+(use-package org-contrib)
 
 ;; use auto-fill always
 (add-hook 'org-mode-hook 'auto-fill-mode)

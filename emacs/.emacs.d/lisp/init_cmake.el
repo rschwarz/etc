@@ -8,4 +8,3 @@
 	   '(("\\.cmake\\'" . cmake-mode))
 	   auto-mode-alist))
 
-(add-hook 'cmake-mode-hook   (lambda () (rainbow-delimiters-mode 1)))

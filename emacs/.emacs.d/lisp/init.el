@@ -21,19 +21,19 @@
 (load "init_c.el")
 ;; (load "init_cmake.el")
 (load "init_deft.el")
-(load "init_docker.el")
+;; (load "init_docker.el")
 (load "init_elisp.el")
 (load "init_git.el")
 ;; (load "init_go.el")
-(load "init_julia.el")
+;; (load "init_julia.el")
 (load "init_literature.el")
 (load "init_mail.el")
 (load "init_markdown.el")
 (load "init_org.el")
 (load "init_python.el")
-(load "init_tex.el")
+;; (load "init_tex.el")
 (load "init_web.el")
-(load "init_yaml.el")
+;; (load "init_yaml.el")
 
 ;; global keybindings
 (load "init_keybindings.el")
@@ -43,9 +43,7 @@
 
 ;; misc (this should be cleaned up!)
 
-(use-package rainbow-delimiters)
-
-(use-package rainbow-mode)
+(use-package vterm)
 
 ;; no tabs
 (setq-default indent-tabs-mode nil)
