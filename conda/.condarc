@@ -1,7 +1,4 @@
-changeps1: False
-
+channel_priority: strict
 channels:
-  - leethargo
-  - mcg
-  - ioos
+  - conda-forge
   - defaults
