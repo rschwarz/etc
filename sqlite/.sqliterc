@@ -1,4 +1,0 @@
-.headers on
-.prompt "> "
-.timer on
-PRAGMA foreign_keys = ON;
