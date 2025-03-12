@@ -58,3 +58,6 @@
 
 ;; ledger
 (use-package ledger-mode)
+
+; navigate to sentences with a simple `. ` separation
+(setq sentence-end-double-space nil)
