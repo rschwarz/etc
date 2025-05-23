@@ -5,7 +5,11 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(julia-mode csv-mode which-key web-mode vterm tango-plus-theme swiper sphinx-doc restclient-helm pdf-tools package-lint org-roam org-contrib markdown-mode magit ledger-mode idle-highlight-mode fill-column-indicator expand-region emmet-mode dumb-jump diminish deft)))
+   '(csv-mode deft diminish dumb-jump emmet-mode expand-region
+              fill-column-indicator idle-highlight-mode julia-mode ledger-mode
+              magit markdown-mode org-contrib org-roam package-lint pdf-tools
+              restclient-helm sphinx-doc swiper tango-plus-theme vterm web-mode
+              which-key yaml-mode)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
