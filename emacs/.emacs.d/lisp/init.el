@@ -52,6 +52,7 @@
 ;; enable dumb-jump mode
 (use-package dumb-jump)
 (dumb-jump-mode)
+(add-hook 'xref-backend-functions #'dumb-jump-xref-activate)
 
 ;; emacs server/client
 (server-start)
