@@ -32,7 +32,6 @@
 (load "init_org.el")
 (load "init_python.el")
 ;; (load "init_tex.el")
-(load "init_web.el")
 ;; (load "init_yaml.el")
 
 ;; global keybindings
