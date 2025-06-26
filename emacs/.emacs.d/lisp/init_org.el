@@ -60,7 +60,6 @@
    (python . t)
    (shell . t)
    ))
-(setq org-babel-sh-command "zsh")
 
 ;; ascii export
 (setq org-ascii-inner-margin 0)
