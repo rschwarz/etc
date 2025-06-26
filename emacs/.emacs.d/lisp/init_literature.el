@@ -33,7 +33,7 @@
   )
 
 (add-to-list 'org-file-apps
-             '("\\.pdf\\'" . "xpdf %s"))
+             '("\\.pdf\\'" . "evince %s"))
 
 (add-to-list 'org-file-apps
              '("\\.djvu\\'" . "evince %s"))

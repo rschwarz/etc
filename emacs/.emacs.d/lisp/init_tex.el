@@ -40,6 +40,6 @@
 ;; use pdflatex by default with auctex
 (setq-default TeX-PDF-mode t)
 
-(setq-default TeX-view-program-selection '((output-pdf "xpdf") (output-html "xdg-open")))
+(setq-default TeX-view-program-selection '((output-pdf "evince") (output-html "xdg-open")))
 
 (add-to-list 'auto-mode-alist '("\\.tikz\\'" . latex-mode))
