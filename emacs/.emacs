@@ -8,8 +8,8 @@
    '(csv-mode deft diminish dumb-jump emmet-mode expand-region
               fill-column-indicator idle-highlight-mode julia-mode ledger-mode
               magit markdown-mode org-contrib org-roam package-lint pdf-tools
-              restclient-helm sphinx-doc swiper tango-plus-theme vterm web-mode
-              which-key yaml-mode)))
+              restclient-helm sphinx-doc swiper tango-plus-theme uniline vterm
+              web-mode which-key yaml-mode)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
